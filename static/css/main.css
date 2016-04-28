@@ -1,0 +1,8 @@
+navbar div.navbar-logo img {
+    max-height: 46px;
+    margin: 3px 0;
+}
+
+.navbar-links > ul > li > a {
+    padding: 16.5px;
+}

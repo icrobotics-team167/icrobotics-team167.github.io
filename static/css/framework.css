@@ -37,7 +37,7 @@ a:hover {
  */
 
 header {
-    padding: 15px 0;
+    padding: 0;
     width: 100%;
     display: block;
     background-color: #000;
@@ -49,6 +49,15 @@ navbar {
     width: 100%; height: 100%;
 }
 
+.navbar-logo {
+    height: 100%;
+    font-size: 0;
+}
+
+.navbar-logo img {
+    max-height: 100%;
+}
+
 .navbar-links > ul {
     margin: 0; padding: 0;
     display: flex;
@@ -57,15 +66,31 @@ navbar {
 }
 
 .navbar-links > ul > li {
-    margin: 0 6px; padding: 2px;
+    margin: 0; padding: 0;
     display: flex;
     flex: 1;
     text-align: center;
 }
 
 .navbar-links > ul > li > a {
-    width: 100%;
-    height: 100%;
+    width: 100%; height: 100%;
+    padding: 15px;
+    color: #DADADA;
+    background-color: #000000;
+    transition: color 0.6s, background-color 0.6s;
+}
+
+.navbar-links > ul > li > a:hover {
+    color: #FFFFFF;
+    background-color: #37474F;
+}
+
+.navbar-links > ul > li.navbar-active a {
+    background-color: #607D8B;
+}
+
+.navbar-links > ul > li.navbar-active a:hover {
+    background-color: #78909C;
 }
 
 /**
@@ -106,6 +131,7 @@ footer {
 .elem-7, .elem-8, .elem-9, .elem-10, .elem-11, .elem-12 {
     margin: 0; padding: 0;
     display: inline-block;
+    vertical-align: bottom;
 }
 
 .elem-1 { width: 8.33333%; }
