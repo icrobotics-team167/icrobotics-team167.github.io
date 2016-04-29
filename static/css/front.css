@@ -1,0 +1,175 @@
+#main-front {
+    margin: 0;
+}
+
+#big-banner {
+    width: 100%; height: 512px;
+    position: relative;
+    overflow: hidden;
+}
+
+#big-banner h3, #big-banner p {
+    margin: 0;
+}
+
+#big-banner h3 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+#banner-bg {
+    width: 110%; height: 110%;
+    position: absolute; margin: -4px;
+    top: 0; left: 0;
+    background-image: url(http://media.bizj.us/view/img/4168811/stock-chart*1200xx4500-2531-0-422.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -4;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    filter: blur(2px);
+}
+
+#banner-caption {
+    width: 560px;
+    padding: 24px;
+    position: absolute; display: block;
+    top: 36%; left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#banner-link {
+    padding: 12px 24px;
+    position: absolute; display: block;
+    top: 70%; left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    background-color: #2196F3;
+    box-shadow: 0 2px 16px -2px #000000
+}
+
+#banner-link:hover {
+    color: #FFFFFF;
+}
+
+#front-sep {
+    width: 100%;
+    padding: 10px 0;
+    box-shadow: inset 0 0 18px -2px #666666;
+}
+
+#year-count {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#year-count:before, #year-count::before, #year-count:after, #year-count::after {
+    content: "";
+    vertical-align: top;
+    display: inline-block;
+    width: 50%;
+    height: 0.65em;
+    border-bottom: 1px solid #ccc;
+    margin: 0 2% 0 -55%;
+}
+
+#year-count:after, #year-count::after {
+    margin: 0 -55% 0 2%;
+}
+
+.lp-elem {
+    height: 100vh;
+    font-size: 0;
+}
+
+.lp-elem > div {
+    width: 50%; height: 100%;
+    display: inline-block; position: relative;
+    font-size: initial;
+    vertical-align: bottom;
+}
+
+.lp-right-img > div, .lp-left-img > div {
+    width: 100%; height: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 50vw 100vh;
+    box-shadow: inset 0 0 12px 2px #111111;
+}
+
+div.lp-left-text:after, div.lp-left-text::after, div.lp-right-text:after, div.lp-right-text::after {
+    width: 0; height: 0;
+    display: block; position: absolute;
+    top: 0;
+    content: '';
+    z-index: 1;
+}   
+
+div.lp-left-text:after, div.lp-left-text::after {
+    right: -128px;
+    border-top: 100vh solid; border-right: 128px solid transparent;
+    border-top-color: inherit;
+}
+
+div.lp-right-text:after, div.lp-right-text::after {
+    left: -128px;
+    border-bottom: 100vh solid; border-left: 128px solid transparent;
+    border-bottom-color: inherit;
+}
+
+.lp-right-img > div {
+    background-position-x: 50vw;
+}
+
+.lp-text-container {
+    margin-left: 5.5vw; margin-right: 5.5vw;
+}
+
+.lp-text-container > h3 {
+    margin: 0; padding: 0;
+    margin-bottom: 18px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.lp-text-container > p {
+    font-size: 18px;
+}
+
+#triple-circle {
+    margin: 96px 0;
+}
+
+.circle-elem h3 {
+    margin: 16px 0; padding: 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.circle-elem p {
+    margin: 0; padding: 0;
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    color: initial;
+}
+
+.circle-elem p:hover {
+    color: initial;
+}
+
+.circle-elem i {
+    display: inline-block;
+    margin-left: 8px;
+    vertical-align: middle;
+    font-size: 24px;
+}
+
+.circle-elem img {
+    width: 216px; height: 216px;
+    border-radius: 50%;
+}

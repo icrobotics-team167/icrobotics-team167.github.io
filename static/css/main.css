@@ -1,3 +1,7 @@
+.navbar-logo {
+    height: 52px;
+}
+
 navbar div.navbar-logo img {
     max-height: 46px;
     margin: 3px 0;
@@ -5,4 +9,9 @@ navbar div.navbar-logo img {
 
 .navbar-links > ul > li > a {
     padding: 16.5px;
+}
+
+#navbar-expand-container {
+    height: 52px;
+    position: absolute;
 }

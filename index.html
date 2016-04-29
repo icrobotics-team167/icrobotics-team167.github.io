@@ -14,9 +14,15 @@
         <script src="static/js/main.js" charset="utf-8"></script>
         <script src="static/js/front.js" charset="utf-8"></script>
         <header>
-            <navbar class="row">
+            <navbar class="row d-mar-page">
+                <div id="navbar-expand-container" class="elem-12 d-hide pos-rel">
+                    <a class="navbar-expand" href="#"><i class="mdi mdi-menu"></i></a>
+                </div>
                 <div class="elem-3">
-                    <div class="navbar-logo text-center"><img src="static/img/logo-white.png"/></div><!--TODO Replace this with an image at some point-->
+                    <div class="navbar-logo m-text-center">
+                        <div class="inline-center-helper"></div>
+                        <img src="static/img/logo-white.png"/>
+                    </div>
                 </div>
                 <div class="elem-9">
                     <div class="navbar-links">
@@ -32,30 +38,86 @@
                 </div>
             </navbar>
         </header>
-        <main>
-            <div class="lp-elem">
-                <div class="lp-left-text"></div>
-                <div class="lp-right-img"></div>
+        <main id="main-front">
+            <div id="big-banner" class="text-center text-light">
+                <div id="banner-bg"></div>
+                <div id="banner-caption">
+                    <h3>Lorem Ipsum</h3>
+                    <p>Dolor set amet consecteteur.</p>
+                </div>
+                <a href="#" id="banner-link">Learn More <i class="mdi mdi-arrow-right"></i></a>
             </div>
-            <div class="lp-elem">
-                <div class="lp-left-img"></div>
-                <div class="lp-right-text"></div>
+            <div id="front-sep" class="m-hide">
+                <p id="year-count" class="text-center"></p>
             </div>
-            <div class="lp-elem">
-                <div class="lp-left-text"></div>
-                <div class="lp-right-img"></div>
+            <div class="lp-elem text-light">
+                <div class="lp-left-text" data-colour="#F44336">
+                    <div class="lp-text-container vert-center">
+                        <h3>Lorem ipsum dolor set amet.</h3>
+                        <p>Consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <div class="lp-right-img">
+                    <div data-bg="https://upload.wikimedia.org/wikipedia/commons/d/d7/Philippine-stock-market-board.jpg"></div>
+                </div>
             </div>
-            <div class="lp-elem">
-                <div class="lp-left-img"></div>
-                <div class="lp-right-text"></div>
+            <div class="lp-elem text-light">
+                <div class="lp-left-img">
+                    <div data-bg="http://c.fastcompany.net/multisite_files/coexist/imagecache/1280/poster/2013/04/1681873-poster-1280-stock-chart.jpg"></div>
+                </div>
+                <div class="lp-right-text" data-colour="#4CAF50">
+                    <div class="lp-text-container vert-center">
+                        <h3>Lorem ipsum dolor set amet.</h3>
+                        <p>Consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="lp-elem text-light">
+                <div class="lp-left-text" data-colour="#2196F3">
+                    <div class="lp-text-container vert-center">
+                        <h3>Lorem ipsum dolor set amet.</h3>
+                        <p>Consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <div class="lp-right-img">
+                    <div data-bg="http://aidsresearch.org/images/uploads/Stock_Gift_Pix.jpg"></div>
+                </div>
+            </div>
+            <div class="lp-elem text-light">
+                <div class="lp-left-img">
+                    <div data-bg="http://nc.hcpress.com/img/wall-st.jpg"></div>
+                </div>
+                <div class="lp-right-text" data-colour="#673AB7">
+                    <div class="lp-text-container vert-center">
+                        <h3>Lorem ipsum dolor set amet.</h3>
+                        <p>Consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="triple-circle" class="row d-mar-page">
+                <div class="circle-elem elem-4 text-center m-pad-vert">
+                    <img src="http://www.thesimpledollar.com/wp-content/uploads/2015/02/stocks-board.jpg"/>
+                    <h3>Lorem Ipsum</h3>
+                    <a href="#"><p>Dolor set amet</p><i class="mdi mdi-arrow-right-bold-circle"></i></a>
+                </div>
+                <div class="circle-elem elem-4 text-center m-pad-vert">
+                    <img src="http://www.thesimpledollar.com/wp-content/uploads/2015/02/stocks-board.jpg"/>
+                    <h3>Lorem Ipsum</h3>
+                    <a href="#"><p>Dolor set amet</p><i class="mdi mdi-arrow-right-bold-circle"></i></a>
+                </div>
+                <div class="circle-elem elem-4 text-center m-pad-vert">
+                    <img src="http://www.thesimpledollar.com/wp-content/uploads/2015/02/stocks-board.jpg"/>
+                    <h3>Lorem Ipsum</h3>
+                    <a href="#"><p>Dolor set amet</p><i class="mdi mdi-arrow-right-bold-circle"></i></a>
+                </div>
             </div>
         </main>
         <footer>
             <div class ="row mar-page">
-                <div class="elem-6">
+                <div class="elem-6 m-text-center">
                     <p><small>&copy; 2016 Iowa City Robotics</small></p>
                 </div>
-                <div class="elem-6 text-right">
+                <div class="elem-6 d-text-right m-text-center">
                     <p><small><a href="//github.com/icrobotics-team167" class="a-newtab"><i class="mdi mdi-github-circle"></i> Find us on GitHub!</a></small></p>
                 </div>
             </div>
