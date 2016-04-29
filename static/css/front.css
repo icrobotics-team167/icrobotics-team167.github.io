@@ -110,13 +110,13 @@ div.lp-left-text:after, div.lp-left-text::after, div.lp-right-text:after, div.lp
 }   
 
 div.lp-left-text:after, div.lp-left-text::after {
-    right: -128px;
+    right: -127px;
     border-top: 100vh solid; border-right: 128px solid transparent;
     border-top-color: inherit;
 }
 
 div.lp-right-text:after, div.lp-right-text::after {
-    left: -128px;
+    left: -127px;
     border-bottom: 100vh solid; border-left: 128px solid transparent;
     border-bottom-color: inherit;
 }
