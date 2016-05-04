@@ -189,32 +189,32 @@ footer {
 
 @media (min-width: 769px) {
 
-    .elem-1, .elem-2, .elem-3, .elem-4, .elem-5, .elem-6,
-    .elem-7, .elem-8, .elem-9, .elem-10, .elem-11, .elem-12 {
+    .row > div.elem-1, .row > div.elem-2, .row > div.elem-3, .row > div.elem-4, .row > div.elem-5, .row > div.elem-6,
+    .row > div.elem-7, .row > div.elem-8, .row > div.elem-9, .row > div.elem-10, .row > div.elem-11, .row > div.elem-12 {
         margin: 0; padding: 0;
         display: inline-block;
         vertical-align: top;
     }
 
-    .elem-1 { width: 8.33333%; }
-    .elem-2 { width: 16.66667%; }
-    .elem-3 { width: 25%; }
-    .elem-4 { width: 33.33333%; }
-    .elem-5 { width: 41.66667%; }
-    .elem-6 { width: 50%; }
-    .elem-7 { width: 58.33333%; }
-    .elem-8 { width: 66.66667%; }
-    .elem-9 { width: 75%; }
-    .elem-10 { width: 83.33333%; }
-    .elem-11 { width: 91.66667%; }
-    .elem-12 { width: 100%; }
+    .row > div.elem-1 { width: 8.33333%; }
+    .row > div.elem-2 { width: 16.66667%; }
+    .row > div.elem-3 { width: 25%; }
+    .row > div.elem-4 { width: 33.33333%; }
+    .row > div.elem-5 { width: 41.66667%; }
+    .row > div.elem-6 { width: 50%; }
+    .row > div.elem-7 { width: 58.33333%; }
+    .row > div.elem-8 { width: 66.66667%; }
+    .row > div.elem-9 { width: 75%; }
+    .row > div.elem-10 { width: 83.33333%; }
+    .row > div.elem-11 { width: 91.66667%; }
+    .row > div.elem-12 { width: 100%; }
     
 }
 
 @media (max-width: 768px) {
     
-    .elem-1, .elem-2, .elem-3, .elem-4, .elem-5, .elem-6,
-    .elem-7, .elem-8, .elem-9, .elem-10, .elem-11, .elem-12 {
+    .row > div.elem-1, .row > div.elem-2, .row > div.elem-3, .row > div.elem-4, .row > div.elem-5, .row > div.elem-6,
+    .row > div.elem-7, .row > div.elem-8, .row > div.elem-9, .row > div.elem-10, .row > div.elem-11, .row > div.elem-12 {
         display: block;
         width: 100%;
     }
@@ -314,7 +314,7 @@ footer {
     .d-mar-page { padding: 0 5%; }
     .d-pad-vert { padding: 36px 0 }
     .d-pad-hor { padding: 0 32px }
-    .d-hide { display: none; }
+    .d-hide { display: none !important; }
     
 }
 
@@ -325,6 +325,6 @@ footer {
     .m-mar-page { padding: 0 5%; }
     .m-pad-vert { padding: 36px 0 }
     .m-pad-hor { padding: 0 32px }
-    .m-hide { display: none; }
+    .m-hide { display: none !important; }
     
 }
