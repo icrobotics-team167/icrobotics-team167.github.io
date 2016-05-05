@@ -52,6 +52,7 @@ header {
 navbar {
     position: relative; display: block;
     width: 100%; height: 100%;
+    box-shadow: 0 0 12px -3px #000000;
 }
 
 .navbar-logo {
