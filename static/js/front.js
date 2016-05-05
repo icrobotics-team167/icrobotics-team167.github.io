@@ -1,3 +1,4 @@
+'use strict';
 $(document).ready(function() {
 
     $('div.lp-left-text').each(function(i, o) {
@@ -22,5 +23,19 @@ $(document).ready(function() {
     
     var years = new Date().getFullYear() - 1998;
     $('#year-count').text('{years} Years of Excellence'.supplant({years: years}));
+    
+    var video = $('#banner-vid');
+    var updateVideo = function(w) {
+        if (w > 768)
+            video.get(0).play();
+        else
+            video.get(0).pause();
+    };
+    
+    var jWin = $(window);
+    updateVideo(jWin.width());
+    jWin.resize(function(e) {
+        updateVideo($(e.target).width());
+    });
     
 });
