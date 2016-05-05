@@ -5,6 +5,7 @@
 #big-banner {
     width: 100%; height: 512px;
     position: relative;
+    background-color: #2A2A2A;
     overflow: hidden;
 }
 
@@ -26,7 +27,6 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    z-index: -4;
     -webkit-filter: blur(2px);
     -moz-filter: blur(2px);
     -o-filter: blur(2px);
