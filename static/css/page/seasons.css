@@ -1,16 +1,30 @@
+#headingtitle {
+    margin: 0; padding: 0;
+    margin-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    font-weight: normal;
+}
+
 #season-grid > div.season-elem {
     height: 240px;
     padding: 14px;
+    margin-bottom: 6px;
     position: relative;
-    background-image: url(http://bluehorseshoestocks.com/wp-content/uploads/2013/03/Traders-Psychology-a.jpg); /* TODO Remove testing rule */
     background-size: cover;
+    background-position: center;
+    transform: scale(0.94, 0.94);
     box-shadow: 0 2px 12px -2px #444444;
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
 #season-grid > div.season-elem:hover {
-    transform: scale(1.04, 1.04);
+    transform: scale(0.98, 0.98);
     box-shadow: 0 2px 12px 0 #666666;
+}
+
+#season-grid > div.season-elem:last-child {
+    margin-bottom: 0;
 }
 
 .season-elem > .season-desc {
