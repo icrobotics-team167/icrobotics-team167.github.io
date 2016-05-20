@@ -1,6 +1,6 @@
 'use strict';
 $(document).ready(function() {
     
-    // TODO Things
+    // TODO stuff
     
 });

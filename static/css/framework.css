@@ -220,6 +220,27 @@ footer {
         width: 100%;
     }
     
+    .row.no-stack > div.elem-1, .row.no-stack > div.elem-2, .row.no-stack > div.elem-3, .row.no-stack > div.elem-4,
+    .row.no-stack > div.elem-5, .row.no-stack > div.elem-6, .row.no-stack > div.elem-7, .row.no-stack > div.elem-8,
+    .row.no-stack > div.elem-9, .row.no-stack > div.elem-10, .row.no-stack > div.elem-11, .row.no-stack > div.elem-12 {
+        margin: 0; padding: 0;
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    .row.no-stack > div.elem-1 { width: 8.33333%; }
+    .row.no-stack > div.elem-2 { width: 16.66667%; }
+    .row.no-stack > div.elem-3 { width: 25%; }
+    .row.no-stack > div.elem-4 { width: 33.33333%; }
+    .row.no-stack > div.elem-5 { width: 41.66667%; }
+    .row.no-stack > div.elem-6 { width: 50%; }
+    .row.no-stack > div.elem-7 { width: 58.33333%; }
+    .row.no-stack > div.elem-8 { width: 66.66667%; }
+    .row.no-stack > div.elem-9 { width: 75%; }
+    .row.no-stack > div.elem-10 { width: 83.33333%; }
+    .row.no-stack > div.elem-11 { width: 91.66667%; }
+    .row.no-stack > div.elem-12 { width: 100%; }
+    
 }
 
 /**
