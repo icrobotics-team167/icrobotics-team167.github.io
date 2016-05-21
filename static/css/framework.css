@@ -3,6 +3,7 @@
  */
 
 @import url(//fonts.googleapis.com/css?family=Roboto);
+@import url(//fonts.googleapis.com/css?family=Oswald);
 @import url(//cdn.materialdesignicons.com/1.5.54/css/materialdesignicons.min.css);
 
 /**
@@ -22,6 +23,14 @@ body {
 /**
  * Element styling
  */
+
+h2 {
+    margin: 0; padding: 0;
+    margin-bottom: 6px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    font-weight: normal;
+}
 
 p {
     margin: 0; padding: 10px 0;

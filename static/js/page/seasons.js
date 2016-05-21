@@ -10,8 +10,11 @@ $(document).ready(function() {
         dName.html('<h4><small>{name}</small></h4>'.supplant({name: data.name}));
         dYear.html('<h4><small>{year}</small></h4>'.supplant({year: y}));
         
-        sDesc.append(dName).append(dYear);
-        return elem.append(sDesc);
+        elem.click(function() {
+            window.location = 'season.html?y={year}'.supplant({year: y});
+        });
+        
+        return elem.append(sDesc.append(dName).append(dYear));
     };
     
     var sGrid = $('#season-grid');
