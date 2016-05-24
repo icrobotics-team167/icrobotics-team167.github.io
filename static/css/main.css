@@ -15,3 +15,9 @@ navbar div.navbar-logo img {
     height: 52px;
     position: absolute;
 }
+
+#page-desc {
+    margin: 0; padding: 0;
+    margin-bottom: 36px;
+    font-size: 18px;
+}
