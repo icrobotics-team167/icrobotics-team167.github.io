@@ -16,6 +16,7 @@ $(document).ready(function() {
     
     $.get('static/html/footer.html', {}, function(r) {
         mainDiv.after($(r));
+        $('a.a-newtab').attr('target', '_BLANK');
     });
     
 });
