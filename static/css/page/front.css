@@ -161,12 +161,30 @@
     margin-left: 5.5vw; margin-right: 5.5vw;
 }
 
-.lp-text-container > h3 {
+.lp-header {
     margin: 0; padding: 0;
     margin-bottom: 18px;
     font-family: 'Oswald', 'Roboto', sans-serif;
     font-size: 36px;
     font-weight: normal;
+    color: #FFFFFF;
+    transition: color 0.8s;
+}
+
+.lp-link-hl {
+    width: 36px; height: 36px;
+    margin-left: -36px;
+    opacity: 0;
+    transition: opacity 0.8s, margin-left 0.8s;
+}
+
+.lp-header:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.lp-header:hover > .lp-link-hl {
+    margin-left: 0;
+    opacity: 1;
 }
 
 .lp-text-container > p {
