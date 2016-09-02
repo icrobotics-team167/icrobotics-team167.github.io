@@ -19,4 +19,10 @@ $(document).ready(function() {
         $('a.a-newtab').attr('target', '_BLANK');
     });
     
+    var mainHdr = $('#main-header');
+    if (!!mainHdr && mainHdr.size() > 0) {
+        var p = document.location.pathname;
+        mainHdr.css('background-image', 'url("static/img/header/{pageName}.jpg")'.supplant({pageName: p.substring(p.lastIndexOf('/') + 1, p.lastIndexOf('.'))}));
+    }
+    
 });

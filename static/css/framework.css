@@ -97,6 +97,7 @@ navbar {
     color: #DADADA;
     background-color: #000000;
     transition: color 0.6s, background-color 0.6s, opacity 1.2s;
+    white-space: nowrap;
 }
 
 .navbar-links > ul > li > a:hover {
