@@ -1,3 +1,35 @@
+/**
+ * Whether the cards have been interpolated yet.
+ */
+var cardsInterpolated = false;
+
+/**
+ * Adds a card to a card grid.
+ */
+var addCard = (parent, card) => {
+    if (parent.hasClass('card-parent') && card.hasClass('card')) {
+        if (cardsInterpolated)
+            $(parent).children('.card-col:eq(0)').append(card);
+        else {
+            var cols = $(parent).children('.card-col'), size = 0, col;
+            for (var i = 0;; i++) {
+                if (i >= cols.size()) {
+                    col = cols.filter('.card-col:eq(0)');
+                    break;
+                }
+                col = $(cols[i]);
+                var children = col.children().size();
+                if (children < size)
+                    break;
+                size = children;
+            }
+            col.append(card);
+        }
+    }
+    else
+        throw 'Invalid call to addCard!';
+};
+
 $(document).ready(function() {
 
     /**
@@ -40,8 +72,6 @@ $(document).ready(function() {
     });
     
     // Card grid interaction functions
-    var cardsInterpolated = false;
-    
     var cardInterpolate = () => {
         cardsInterpolated = true;
         $('.card-parent').each((ind, elem) => {
@@ -80,26 +110,3 @@ $(document).ready(function() {
     onWindowResize();
 
 });
-
-/**
- * Adds a card to a card grid.
- */
-var addCard = (parent, card) => {
-    if (parent.hasClass('card-parent') && card.hasClass('card')) {
-        var cols = $(parent).children('.card-col'), size = 0, col;
-        for (var i = 0;; i++) {
-            if (i >= cols.size()) {
-                col = cols.filter('.card-col:eq(0)');
-                break;
-            }
-            col = $(cols[i]);
-            var children = col.children().size();
-            if (children < size)
-                break;
-            size = children;
-        }
-        col.append(card);
-    }
-    else
-        throw 'Invalid call to addCard!';
-};
