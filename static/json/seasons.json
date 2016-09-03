@@ -97,8 +97,6 @@
     "2014": {
         "name": "Aerial Assist",
         "banner": "banner.jpg",
-        "name": "Recycle Rush",
-        "banner": "banner.jpg",
         "game": {
             "desc": "This should be a sentence or two about how the game works. Don't go too in-depth because the game reveal video will be here too.",
             "media": "nu"
@@ -149,8 +147,6 @@
     "2013": {
         "name": "Ultimate Ascent",
         "banner": "banner.jpg",
-        "name": "Recycle Rush",
-        "banner": "banner.jpg",
         "game": {
             "desc": "This should be a sentence or two about how the game works. Don't go too in-depth because the game reveal video will be here too.",
             "media": "nu"
@@ -200,8 +196,6 @@
     },
     "2012": {
         "name": "Rebound Rumble",
-        "banner": "banner.jpg",
-        "name": "Recycle Rush",
         "banner": "banner.jpg",
         "game": {
             "desc": "This should be a sentence or two about how the game works. Don't go too in-depth because the game reveal video will be here too.",

@@ -53,6 +53,7 @@ $(document).ready(function() {
             // Regionals
             $.each(yData.regionals, (ind, rg) => {
                 var card = $('<div>', {class: 'season-content-card card'});
+                var contentWrapper = $('<div>');
                 var text = $('<div>', {class: 'card-text'});
                 
                 var header = $('<h2>');
@@ -69,14 +70,16 @@ $(document).ready(function() {
                     text.append(notes);
                 }
                 
-                card.append(decodeMedia(rg.media, year));
-                card.append(text);
+                contentWrapper.append(decodeMedia(rg.media, year));
+                contentWrapper.append(text);
+                card.append(contentWrapper);
                 addCard(cardParent, card);
             });
             
             // Gallery
             ((gal, yData) => {
                 var card = $('<div>', {class: 'season-content-card card'});
+                var contentWrapper = $('<div>');
                 
                 var mediaContainer = $('<div>', {class: 'media-gallery'});
                 var media = $('<div>', {class: 'media-gallery-backplate'});
@@ -87,7 +90,7 @@ $(document).ready(function() {
                 mediaContainer.append(media);
                 mediaContainer.append(back);
                 mediaContainer.append(fwd);
-                card.append(mediaContainer);
+                contentWrapper.append(mediaContainer);
                 
                 var text = $('<div>', {class: 'card-text'});
                 var header = $('<h2>');
@@ -95,7 +98,7 @@ $(document).ready(function() {
                 var caption = $('<p>');
                 text.append(header);
                 text.append(caption);
-                card.append(text);
+                contentWrapper.append(text);
                 
                 yData['galInd'] = 0;
                 $.each(gal, (ind, elem) => {
@@ -118,6 +121,7 @@ $(document).ready(function() {
                 });
                 updateGallery();
                 
+                card.append(contentWrapper);
                 addCard(cardParent, card);
             })(yData.gallery, yData);
             
@@ -125,6 +129,7 @@ $(document).ready(function() {
             if (!!yData.other) {
                 $.each(yData.other, (ind, cData) => {
                     var card = $('<div>', {class: 'season-content-card card'});
+                    var contentWrapper = $('<div>');
                     var text = $('<div>', {class: 'card-text'});
 
                     if (!!cData.title) {
@@ -140,9 +145,10 @@ $(document).ready(function() {
                     }
 
                     if (!!cData.media)
-                        card.append(decodeMedia(cData.media, year));
+                        contentWrapper.append(decodeMedia(cData.media, year));
                     
-                    card.append(text);
+                    contentWrapper.append(text);
+                    card.append(contentWrapper);
                     addCard(cardParent, card);
                 });
             }
