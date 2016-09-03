@@ -1,3 +1,20 @@
+iframe {
+    border: none;
+}
+
+.yt-video-container {
+    width: 100%; height: 0;
+    margin: 0; padding: 0;
+    padding-bottom: 56.25%;
+    position: relative;
+}
+
+.yt-video-container > iframe {
+    width: 100%; height: 100%;
+    position: absolute;
+    top: 0; left: 0;
+}
+
 main {
     margin-top: 0;
 }
@@ -22,4 +39,101 @@ main {
 
 #heading-banner-title small {
     font-size: 24px;
+}
+
+#main-content {
+    margin-top: 48px;
+}
+
+@media (max-width: 768px) {
+    
+    #main-content {
+        margin-top: 5%;
+    }
+    
+}
+
+#main-content > .season-content-card {
+    padding: 12px;
+}
+
+.card-col > .season-content-card > div {
+    position: relative;
+    background-color: #F0F0F0;
+    border-radius: 4px;
+    box-shadow: 0 2px 12px -5px #000000;
+    overflow: hidden;
+    z-index: 15;
+}
+
+.card-col > .season-content-card > div > img {
+    width: 100%;
+}
+
+.card-text {
+    padding: 24px;
+}
+
+#robot-desc-features-title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#robot-desc-features {
+    margin: 0;
+    padding-left: 24px;
+    padding-bottom: 10px;
+    list-style-type: disc;
+}
+
+.media-gallery, .media-gallery-media, .media-gallery-media > img {
+    width: 100%;
+}
+
+.media-gallery-backplate {
+    position: relative;
+    transition: right 0.8s;
+    line-height: 0;
+    font-size: 0;
+    white-space: nowrap;
+}
+
+.media-gallery-media {
+    display: inline-block;
+}
+
+.media-gallery-back, .media-gallery-fwd {
+    padding: 6px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    border-radius: 50%;
+    transition: background-color 0.6s, opacity 0.3s;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.media-gallery-back:hover, .media-gallery-fwd:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.media-gallery:hover > .media-gallery-back, .media-gallery:hover > .media-gallery-fwd {
+    opacity: 1;
+}
+
+.media-gallery-back {
+    left: 6px;
+}
+
+.media-gallery-fwd {
+    right: 6px;
+}
+
+.media-empty {
+    width: 100%; height: 0;
+    margin: 0; padding: 0;
+    padding-bottom: 56.25%;
+    background-color: #2196F3 !important;
 }

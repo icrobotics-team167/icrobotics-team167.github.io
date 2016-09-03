@@ -2,7 +2,7 @@
 $(document).ready(function() {
     
     var generateBlock = function(y, data) {
-        var elem = $('<div>', {class: 'season-elem elem-4'}).css('background-image', 'url({url})'.supplant({url: data.img}));
+        var elem = $('<div>', {class: 'season-elem elem-4'}).css('background-image', 'url(static/img/seasons/{year}/{url})'.supplant({year: y, url: data.banner}));
         var sDesc = $('<div>', {class: 'row no-stack season-desc mar-out text-light'});
         var dName = $('<div>', {class: 'season-name elem-6'});
         var dYear = $('<div>', {class: 'season-year elem-6 text-right'});

@@ -34,6 +34,7 @@ h2 {
 
 p {
     margin: 0; padding: 10px 0;
+    font-size: 16px;
 }
 
 a {
@@ -247,6 +248,45 @@ footer {
     .row.no-stack > div.elem-10 { width: 83.33333%; }
     .row.no-stack > div.elem-11 { width: 91.66667%; }
     .row.no-stack > div.elem-12 { width: 100%; }
+    
+}
+
+/**
+ * Columnated card styling
+ */
+
+@media (min-width: 769px) {
+
+    .card-parent {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .card-col {
+        flex: 1;
+    }
+    
+}
+
+.card {
+    padding: 16px;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    
+    .card-parent {
+        display: block;
+    }
+    
+    .card-col {
+        display: none;
+    }
+    
+    .card-col:first-child {
+        display: block;
+    }
     
 }
 

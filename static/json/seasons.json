@@ -1,22 +1,253 @@
 {
     "2016": {
         "name": "Stronghold",
-        "img": "static/img/seasons/2016/banner.jpg"
+        "banner": "banner.jpg",
+        "game": {
+            "desc": "The goal of FRC Stronghold was to launch balls into the enemy goals while also \"breaching\" enemy defenses to gain points.",
+            "media": "yt:VqOKzoHJDjA"
+        },
+        "robot": {
+            "name": "Fido",
+            "media": "yt:xASL9SPsjNg",
+            "goal": "We wanted to build a robot that can traverse defenses efficiently while also being able to score both high and low goals without too much difficulty.",
+            "features": [
+                "AndyMark Rhino tank drive",
+                "Movable auxillary arm",
+                "Ball intake via two belts",
+                "Ball shooting via two wheels",
+                "Onboard camera",
+                "Climbing arm (discarded)"
+            ]
+        },
+        "regionals": [
+            {
+                "name": "Iowa Regional",
+                "media": "yt:d-WyoTvjTIE",
+                "placing": "Disqualified somewhere.",
+                "notes": "The first FRC regional in Iowa."
+            },
+            {
+                "name": "North Star Regional",
+                "media": "yt:QH_Y7LpYAMc",
+                "placing": "Disqualified at semifinal stage.",
+                "notes": "A plastic thing broke. Nice."
+            }
+        ],
+        "gallery": [
+            {
+                "media": "li:banner.jpg",
+                "caption": "Mr. Schares carefully inserting the flux capacitor that powers our hyperspace drive train."
+            },
+            {
+                "media": "yt:xASL9SPsjNg",
+                "caption": "Our cool robot showcase."
+            }
+        ]
     },
     "2015": {
         "name": "Recycle Rush",
-        "img": "static/img/seasons/2015/banner.jpg"
+        "banner": "banner.jpg",
+        "game": {
+            "desc": "This should be a sentence or two about how the game works. Don't go too in-depth because the game reveal video will be here too.",
+            "media": "nu"
+        },
+        "robot": {
+            "name": "Robot Name",
+            "media": "nu",
+            "goal": "This should be a sentence or two about our goals for the robot's construction.",
+            "features": [
+                "Mechanum drive",
+                "(This should be",
+                "a list of short phrases",
+                "detailing the mechanisms",
+                "and other parts of the robot)"
+            ]
+        },
+        "regionals": [
+            {
+                "name": "Regional One",
+                "media": "nu",
+                "placing": "Disqualified/qualified/whatever",
+                "notes": "Optional; just put random notes here if there's something interesting to comment."
+            },
+            {
+                "name": "Regional Two",
+                "media": "nu",
+                "placing": "Disqualified/qualified/whatever"
+            }
+        ],
+        "gallery": [
+            {
+                "media": "nu",
+                "caption": "This is where you put the rest of the media for this season."
+            },
+            {
+                "media": "nu",
+                "caption": "Media can be pictures, video, etc."
+            }
+        ],
+        "other": [
+            {
+                "title": "Auxillary Info Cards",
+                "content": "This is a completely optional section where you can put extra cards if you need them. Each card has three features, all of them optional: a big title text, a smaller content text, and some form of media.",
+                "media": "nu"
+            }
+        ]
     },
     "2014": {
         "name": "Aerial Assist",
-        "img": "static/img/seasons/2014/banner.jpg"
+        "banner": "banner.jpg",
+        "name": "Recycle Rush",
+        "banner": "banner.jpg",
+        "game": {
+            "desc": "This should be a sentence or two about how the game works. Don't go too in-depth because the game reveal video will be here too.",
+            "media": "nu"
+        },
+        "robot": {
+            "name": "Robot Name",
+            "media": "nu",
+            "goal": "This should be a sentence or two about our goals for the robot's construction.",
+            "features": [
+                "Mechanum drive",
+                "(This should be",
+                "a list of short phrases",
+                "detailing the mechanisms",
+                "and other parts of the robot)"
+            ]
+        },
+        "regionals": [
+            {
+                "name": "Regional One",
+                "media": "nu",
+                "placing": "Disqualified/qualified/whatever",
+                "notes": "Optional; just put random notes here if there's something interesting to comment."
+            },
+            {
+                "name": "Regional Two",
+                "media": "nu",
+                "placing": "Disqualified/qualified/whatever"
+            }
+        ],
+        "gallery": [
+            {
+                "media": "nu",
+                "caption": "This is where you put the rest of the media for this season."
+            },
+            {
+                "media": "nu",
+                "caption": "Media can be pictures, video, etc."
+            }
+        ],
+        "other": [
+            {
+                "title": "Auxillary Info Cards",
+                "content": "This is a completely optional section where you can put extra cards if you need them. Each card has three features, all of them optional: a big title text, a smaller content text, and some form of media.",
+                "media": "nu"
+            }
+        ]
     },
     "2013": {
         "name": "Ultimate Ascent",
-        "img": "static/img/seasons/2013/banner.jpg"
+        "banner": "banner.jpg",
+        "name": "Recycle Rush",
+        "banner": "banner.jpg",
+        "game": {
+            "desc": "This should be a sentence or two about how the game works. Don't go too in-depth because the game reveal video will be here too.",
+            "media": "nu"
+        },
+        "robot": {
+            "name": "Robot Name",
+            "media": "nu",
+            "goal": "This should be a sentence or two about our goals for the robot's construction.",
+            "features": [
+                "Mechanum drive",
+                "(This should be",
+                "a list of short phrases",
+                "detailing the mechanisms",
+                "and other parts of the robot)"
+            ]
+        },
+        "regionals": [
+            {
+                "name": "Regional One",
+                "media": "nu",
+                "placing": "Disqualified/qualified/whatever",
+                "notes": "Optional; just put random notes here if there's something interesting to comment."
+            },
+            {
+                "name": "Regional Two",
+                "media": "nu",
+                "placing": "Disqualified/qualified/whatever"
+            }
+        ],
+        "gallery": [
+            {
+                "media": "nu",
+                "caption": "This is where you put the rest of the media for this season."
+            },
+            {
+                "media": "nu",
+                "caption": "Media can be pictures, video, etc."
+            }
+        ],
+        "other": [
+            {
+                "title": "Auxillary Info Cards",
+                "content": "This is a completely optional section where you can put extra cards if you need them. Each card has three features, all of them optional: a big title text, a smaller content text, and some form of media.",
+                "media": "nu"
+            }
+        ]
     },
     "2012": {
         "name": "Rebound Rumble",
-        "img": "static/img/seasons/2012/banner.jpg"
+        "banner": "banner.jpg",
+        "name": "Recycle Rush",
+        "banner": "banner.jpg",
+        "game": {
+            "desc": "This should be a sentence or two about how the game works. Don't go too in-depth because the game reveal video will be here too.",
+            "media": "nu"
+        },
+        "robot": {
+            "name": "Robot Name",
+            "media": "nu",
+            "goal": "This should be a sentence or two about our goals for the robot's construction.",
+            "features": [
+                "Mechanum drive",
+                "(This should be",
+                "a list of short phrases",
+                "detailing the mechanisms",
+                "and other parts of the robot)"
+            ]
+        },
+        "regionals": [
+            {
+                "name": "Regional One",
+                "media": "nu",
+                "placing": "Disqualified/qualified/whatever",
+                "notes": "Optional; just put random notes here if there's something interesting to comment."
+            },
+            {
+                "name": "Regional Two",
+                "media": "nu",
+                "placing": "Disqualified/qualified/whatever"
+            }
+        ],
+        "gallery": [
+            {
+                "media": "nu",
+                "caption": "This is where you put the rest of the media for this season."
+            },
+            {
+                "media": "nu",
+                "caption": "Media can be pictures, video, etc."
+            }
+        ],
+        "other": [
+            {
+                "title": "Auxillary Info Cards",
+                "content": "This is a completely optional section where you can put extra cards if you need them. Each card has three features, all of them optional: a big title text, a smaller content text, and some form of media.",
+                "media": "nu"
+            }
+        ]
     }
 }
