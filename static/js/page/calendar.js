@@ -59,7 +59,7 @@ $(document).ready(function() {
     var q = document.parseQuery();
     q.start = Number(q.start) || 0;
     q.count = Number(q.count) || 10;
-    
+    /* TODO Finish implementation
     $.get('//cors.io/?u=http://calendar.google.com/calendar/ical/icrobotics.org_1naqtkhf3esdsbmvsli2dg9cos%40group.calendar.google.com/public/basic.ics', {}, function(r) {
         var lines = r.split('\n');
         var events = [];
@@ -72,5 +72,5 @@ $(document).ready(function() {
             eventDiv.append(eBlock);
         }
     });
-    
+    */
 });
