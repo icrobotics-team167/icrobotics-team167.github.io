@@ -23,24 +23,20 @@
             {
                 "name": "Iowa Regional",
                 "media": "yt:d-WyoTvjTIE",
-                "placing": "Disqualified somewhere.",
+                "placing": "Disqualified at quarterfinal stage.",
                 "notes": "The first FRC regional in Iowa."
             },
             {
                 "name": "North Star Regional",
                 "media": "yt:QH_Y7LpYAMc",
-                "placing": "Disqualified at semifinal stage.",
-                "notes": "A plastic thing broke. Nice."
+                "placing": "Resigned at semifinal stage.",
+                "notes": "A plastic component of our drive train shattered, rendering our robot immobile."
             }
         ],
         "gallery": [
             {
                 "media": "li:banner.jpg",
                 "caption": "Mr. Schares carefully inserting the flux capacitor that powers our hyperspace drive train."
-            },
-            {
-                "media": "yt:xASL9SPsjNg",
-                "caption": "Our cool robot showcase."
             }
         ]
     },
@@ -48,49 +44,34 @@
         "name": "Recycle Rush",
         "banner": "banner.jpg",
         "game": {
-            "desc": "This should be a sentence or two about how the game works. Don't go too in-depth because the game reveal video will be here too.",
-            "media": "yt:eGYOFU5CnlI"
+            "desc": "In Recycle Rush, our robot had to stack recycling crates and trash bins to earn points.",
+            "media": "yt:mAN1B7oKDXE"
         },
         "robot": {
-            "name": "Robot Name",
-            "media": "nu",
-            "goal": "This should be a sentence or two about our goals for the robot's construction.",
+            "name": "",
+            "media": "yt:aiDqPDMbpMw",
+            "goal": "This year, our goal was to create a robot able to create tall stacks via a forklift-like system.",
             "features": [
-                "Mechanum drive",
-                "(This should be",
-                "a list of short phrases",
-                "detailing the mechanisms",
-                "and other parts of the robot)"
+                "Mechanum omnidirectional drive",
+                "Pneumatic clamping forklift"
             ]
         },
         "regionals": [
             {
-                "name": "Regional One",
-                "media": "nu",
-                "placing": "Disqualified/qualified/whatever",
-                "notes": "Optional; just put random notes here if there's something interesting to comment."
+                "name": "Milwaukee Regional",
+                "media": "li:team.jpg",
+                "placing": "Disqualified/qualified/whatever"
             },
             {
-                "name": "Regional Two",
+                "name": "10000 Lakes Regional",
                 "media": "nu",
-                "placing": "Disqualified/qualified/whatever"
+                "placing": "Disqualified at quarterfinals."
             }
         ],
         "gallery": [
             {
-                "media": "nu",
-                "caption": "This is where you put the rest of the media for this season."
-            },
-            {
-                "media": "nu",
-                "caption": "Media can be pictures, video, etc."
-            }
-        ],
-        "other": [
-            {
-                "title": "Auxillary Info Cards",
-                "content": "This is a completely optional section where you can put extra cards if you need them. Each card has three features, all of them optional: a big title text, a smaller content text, and some form of media.",
-                "media": "nu"
+                "media": "li:banner.jpg",
+                "caption": "Our robot."
             }
         ]
     },
