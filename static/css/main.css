@@ -19,14 +19,12 @@ navbar div.navbar-logo img {
 main#main {
     margin-top: 0;
 }
+
 #main-content-sponsors > p {
     text-align: center;
     font-size: 20px;
 }
 
-#list-content {
-
-}
 #main-header {
     margin-bottom: 48px;
     padding-top: 72px; padding-bottom: 72px;
