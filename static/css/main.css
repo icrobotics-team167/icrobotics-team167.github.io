@@ -19,7 +19,9 @@ navbar div.navbar-logo img {
 main#main {
     margin-top: 0;
 }
-
+#main-content{
+    text-align: center;
+}
 #main-header {
     margin-bottom: 48px;
     padding-top: 72px; padding-bottom: 72px;
