@@ -19,8 +19,11 @@ navbar div.navbar-logo img {
 main#main {
     margin-top: 0;
 }
-#main-content{
+#main-content-sponsors{
     text-align: center;
+}
+#list-content{
+
 }
 #main-header {
     margin-bottom: 48px;
