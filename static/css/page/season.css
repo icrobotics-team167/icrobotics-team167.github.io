@@ -86,6 +86,10 @@ main {
     list-style-type: disc;
 }
 
+.media-gallery {
+    position: relative;
+}
+
 .media-gallery, .media-gallery-media, .media-gallery-media > img {
     width: 100%;
 }
