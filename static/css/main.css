@@ -24,8 +24,8 @@ main#main {
     font-size: 20px;
 }
 
-#list-content {
-
+#main-content {
+text-indent: 50px;
 }
 #main-header {
     margin-bottom: 48px;
