@@ -10,7 +10,7 @@ $(document).ready(function() {
         } else if (parts[0] === 'li') {
             return $('<img>', {src: 'static/img/seasons/{year}/{url}'.supplant({year: year, url: parts[1]})});
         } else if (parts[0] == 'nu') {
-            return $('<div>', {class: 'media-empty'});
+            return $('<img>', {src: 'static/img/no-image.png'});
         }
     };
     
