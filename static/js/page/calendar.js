@@ -2,20 +2,20 @@
 $(document).ready(function() {
     
     var parseDate = function(ts) {
-        var year = Number(ts.substring(0, 4));
-        var month = Number(ts.substring(4, 6));
-        var day = Number(ts.substring(6, 8));
-        var hr = Number(ts.substring(9, 11));
-        var min = Number(ts.substring(11, 13));
-        var sec = Number(ts.substring(13, 15));
+        let year = Number(ts.substring(0, 4));
+        let month = Number(ts.substring(4, 6));
+        let day = Number(ts.substring(6, 8));
+        let hr = Number(ts.substring(9, 11));
+        let min = Number(ts.substring(11, 13));
+        let sec = Number(ts.substring(13, 15));
         return new Date(year, month, day, hr, min, sec).getTime() / 1000;
     };
     
     var unbackslash = function(orig) {
-        var str = orig.slice(0);
-        var ind = -1;
+        let str = orig.slice(0);
+        let ind = -1;
         while ((ind = str.indexOf('\\')) != -1) {
-            var repl = str.charAt(ind + 1);
+            let repl = str.charAt(ind + 1);
             if (repl === 'n')
                 repl = '\n';
             str = str.substring(0, ind) + repl + str.substring(ind + 2, str.length);
@@ -24,9 +24,9 @@ $(document).ready(function() {
     };
     
     var parseICal = function(lines, events) {
-        var details = null;
-        for (var i = 0; i < lines.length; i++) {
-            var line = unbackslash(lines[i].trim());
+        let details = null;
+        for (let i = 0; i < lines.length; i++) {
+            let line = unbackslash(lines[i].trim());
             if (line === 'BEGIN:VEVENT')
                 details = {};
             else if (line === 'END:VEVENT') {

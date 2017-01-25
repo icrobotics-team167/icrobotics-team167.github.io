@@ -2,15 +2,15 @@
 $(document).ready(function() {
     
     var decodeMedia = function(media, year) {
-        var parts = media.split(':', 2);
+        let parts = media.split(':', 2);
         if (parts[0] === 'yt') {
-            var cont = $('<div>', {class: 'yt-video-container'});
+            let cont = $('<div>', {class: 'yt-video-container'});
             cont.append($('<iframe>', {src: '//youtube.com/embed/{videoId}?rel=0&showinfo=0'.supplant({videoId: parts[1]})}));
             return cont;
         } else if (parts[0] === 'li') {
             return $('<img>', {src: 'static/img/seasons/{year}/{url}'.supplant({year: year, url: parts[1]})});
         } else if (parts[0] == 'nu') {
-            return $('<div>', {class: 'media-empty'});
+            return $('<img>', {src: 'static/img/no-image.png'});
         }
     };
     
@@ -21,12 +21,12 @@ $(document).ready(function() {
     var q = document.parseQuery();
     
     if (q.y) {
-        var year = q.y.trim().toLowerCase();
+        let year = q.y.trim().toLowerCase();
         $.getJSON('static/json/seasons.json', {}, function(r) {
             if (!r[year])
                 return fail();
-            var yData = r[year];
-            var cardParent = $('#main-content');
+            let yData = r[year];
+            let cardParent = $('#main-content');
             
             // Set page title to the season
             document.title = document.title.replace(/Seasons/, q.y);
@@ -43,29 +43,29 @@ $(document).ready(function() {
             $('#robot-desc-container').prepend(decodeMedia(yData.robot.media, year));
             $('#robot-desc-title').text('Meet {name}, Our Robot'.supplant({name: yData.robot.name}));
             $('#robot-desc-goal').text(yData.robot.goal);
-            var featList = $('#robot-desc-features');
+            let featList = $('#robot-desc-features');
             $.each(yData.robot.features, (i, feat) => {
-                var elem = $('<li>');
+                let elem = $('<li>');
                 elem.text(feat);
                 featList.append(elem);
             });
             
             // Regionals
             $.each(yData.regionals, (ind, rg) => {
-                var card = $('<div>', {class: 'season-content-card card'});
-                var contentWrapper = $('<div>');
-                var text = $('<div>', {class: 'card-text'});
+                let card = $('<div>', {class: 'season-content-card card'});
+                let contentWrapper = $('<div>');
+                let text = $('<div>', {class: 'card-text'});
                 
-                var header = $('<h2>');
+                let header = $('<h2>');
                 header.text(rg.name);
                 text.append(header);
                 
-                var placement = $('<p>');
+                let placement = $('<p>');
                 placement.html('<strong>Placing:</strong> {placing}'.supplant({placing: rg.placing}));
                 text.append(placement);
                 
                 if (rg.notes) {
-                    var notes = $('<p>');
+                    let notes = $('<p>');
                     notes.text(rg.notes);
                     text.append(notes);
                 }
@@ -78,13 +78,13 @@ $(document).ready(function() {
             
             // Gallery
             ((gal, yData) => {
-                var card = $('<div>', {class: 'season-content-card card'});
-                var contentWrapper = $('<div>');
+                let card = $('<div>', {class: 'season-content-card card'});
+                let contentWrapper = $('<div>');
                 
-                var mediaContainer = $('<div>', {class: 'media-gallery'});
-                var media = $('<div>', {class: 'media-gallery-backplate'});
-                var back = $('<div>', {class: 'media-gallery-back text-light'});
-                var fwd = $('<div>', {class: 'media-gallery-fwd text-light'});
+                let mediaContainer = $('<div>', {class: 'media-gallery'});
+                let media = $('<div>', {class: 'media-gallery-backplate'});
+                let back = $('<div>', {class: 'media-gallery-back text-light'});
+                let fwd = $('<div>', {class: 'media-gallery-fwd text-light'});
                 back.append($('<i>', {class: 'mdi mdi-arrow-left'}));
                 fwd.append($('<i>', {class: 'mdi mdi-arrow-right'}));
                 mediaContainer.append(media);
@@ -92,21 +92,21 @@ $(document).ready(function() {
                 mediaContainer.append(fwd);
                 contentWrapper.append(mediaContainer);
                 
-                var text = $('<div>', {class: 'card-text'});
-                var header = $('<h2>');
+                let text = $('<div>', {class: 'card-text'});
+                let header = $('<h2>');
                 header.text('Media Gallery');
-                var caption = $('<p>');
+                let caption = $('<p>');
                 text.append(header);
                 text.append(caption);
                 contentWrapper.append(text);
                 
                 yData['galInd'] = 0;
                 $.each(gal, (ind, elem) => {
-                    var mediaWrap = $('<div>', {class: 'media-gallery-media'});
+                    let mediaWrap = $('<div>', {class: 'media-gallery-media'});
                     mediaWrap.append(decodeMedia(elem.media, year));
                     media.append(mediaWrap);
                 });
-                var updateGallery = function() {
+                let updateGallery = function() {
                     media.css('right', '{perc}%'.supplant({perc: 100 * yData.galInd}));
                     caption.text(gal[yData.galInd].caption);
                 };
@@ -128,18 +128,18 @@ $(document).ready(function() {
             // Auxillary cards
             if (!!yData.other) {
                 $.each(yData.other, (ind, cData) => {
-                    var card = $('<div>', {class: 'season-content-card card'});
-                    var contentWrapper = $('<div>');
-                    var text = $('<div>', {class: 'card-text'});
+                    let card = $('<div>', {class: 'season-content-card card'});
+                    let contentWrapper = $('<div>');
+                    let text = $('<div>', {class: 'card-text'});
 
                     if (!!cData.title) {
-                        var header = $('<h2>');
+                        let header = $('<h2>');
                         header.text(cData.title);
                         text.append(header);
                     }
                     
                     if (!!cData.content) {
-                        var content = $('<p>');
+                        let content = $('<p>');
                         content.text(cData.content);
                         text.append(content);
                     }

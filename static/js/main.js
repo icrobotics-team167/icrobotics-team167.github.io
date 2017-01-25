@@ -6,7 +6,7 @@ $(document).ready(function() {
     var mainDiv = $('main');
     
     $.get('static/html/header.html', {}, function(r) {
-        var hDiv = $(r);
+        let hDiv = $(r);
         hDiv.find('.navbar-links ul li a[href=\'{target}\']'.supplant({target: pageData.nav})).parent().addClass('navbar-active');
         mainDiv.before(hDiv);
         $('a.navbar-expand').click(function(e) {
@@ -21,7 +21,7 @@ $(document).ready(function() {
     
     var mainHdr = $('#main-header');
     if (!!mainHdr && mainHdr.size() > 0) {
-        var p = document.location.pathname;
+        let p = document.location.pathname;
         mainHdr.css('background-image', 'url("static/img/header/{pageName}.jpg")'.supplant({pageName: p.substring(p.lastIndexOf('/') + 1, p.lastIndexOf('.'))}));
     }
     
