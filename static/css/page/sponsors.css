@@ -1,4 +1,22 @@
-img {
+body {
+	text-align: center;
+}
+
+table {
+	font-family: "Oswald", sans-serif;
+	color: #2C586A;
 	margin: auto;
-	width: 90%;
+}
+
+th {
+	font-size: 24pt;
+}
+
+td {
+	font-size: 16pt;
+}
+
+td.number {
+	font-size: 50pt;
+	color: #3AC046;
 }
