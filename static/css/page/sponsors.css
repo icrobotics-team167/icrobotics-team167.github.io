@@ -1,16 +1,8 @@
-body {
-	text-align: center;
-	font-family: "Oswald", sans-serif;
-	color: #2C586A;
-}
-
 table {
 	margin: auto;
+	font-family: "Oswald", sans-serif;
+	color: #2C586A;
 	border-spacing: 10px;
-}
-
-th {
-	font-size: 30pt;
 }
 
 td {
@@ -23,7 +15,10 @@ td.number {
 }
 
 h1 {
+	font-family: "Oswald", sans-serif;
+	color: #2C586A;
 	font-size: 30pt;
+	text-align: center;
 }
 
 img {
