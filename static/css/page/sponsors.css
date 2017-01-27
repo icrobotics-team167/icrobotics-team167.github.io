@@ -2,7 +2,7 @@ table {
 	margin: auto;
 	font-family: "Oswald", sans-serif;
 	color: #2C586A;
-	border-spacing: 10px;
+	border-spacing: 20px;
 }
 
 td {
@@ -15,13 +15,16 @@ td.number {
 }
 
 h1 {
+	margin: 0, padding: 0;
 	font-family: "Oswald", sans-serif;
 	color: #2C586A;
 	font-size: 30pt;
+	font-weight: normal;
 	text-align: center;
 }
 
-img.graphics {
-	width: 90%;
+.graphics {
+    width: 90%;
+    display: block;
 	margin: auto;
 }
