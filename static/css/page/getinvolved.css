@@ -12,9 +12,14 @@
     margin: 24px 0; padding: 0 16px;
 }
 
-#other-opts > div > div.other-img {
+#other-opts > div > a {
     width: 100%; height: 156px;
+    display: block;
     margin-bottom: 18px;
+}
+
+#other-opts > div > a > div.other-img {
+    width: 100%; height: 100%;
     background-size: cover;
     background-position: center;
     border-radius: 12px;
@@ -35,13 +40,13 @@
 }
 
 @media (max-width: 768px) {
-    
+
     #other-opts > div {
         margin: 48px 0; padding: 0;
     }
-    
+
     #other-opts > div > h3:after {
         margin-left: auto; margin-right: auto;
     }
-    
+
 }
