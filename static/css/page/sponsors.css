@@ -9,9 +9,31 @@ td {
 	font-size: 16pt;
 }
 
-td.number {
+/**#by-the-nums > div {
+	white-space: nowrap;
+}**/
+
+.number {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: right;
+	margin-left: 15px;
+	margin-right: 15px;
 	font-size: 50pt;
+	font-family: "Oswald", sans-serif;
 	font-weight: bold;
+}
+
+.text {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: left;
+	margin-left: 15px;
+	margin-right: 15px;
+	font-size: 18pt;
+	font-weight: normal;
+	font-family: "Oswald", sans-serif;
+	color: #2C586A;
 }
 
 h1 {
