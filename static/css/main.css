@@ -121,3 +121,8 @@ footer > div.row {
     }
     
 }
+
+.whoops-face {
+    font-weight: 900;
+    font-family: "Roboto", "Calibri", "Arial", sans-serif;
+}
