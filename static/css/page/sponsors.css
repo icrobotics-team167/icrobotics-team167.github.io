@@ -54,7 +54,7 @@ h1 {
 #gold{
 	margin: 0; padding: 0;
 	font-family: "Oswald", sans-serif;
-	color: #C1A33D;
+	color: #FFC400;
 	font-size: 30pt;
 	font-weight: normal;
 	text-align: center;
@@ -63,7 +63,7 @@ h1 {
 #silver{
 	margin: 0; padding: 0;
 	font-family: "Oswald", sans-serif;
-	color: #9C9C9C;
+	color: #BDBDBD;
 	font-size: 30pt;
 	font-weight: normal;
 	text-align: center;
@@ -72,7 +72,7 @@ h1 {
 #bronze{
 	margin: 0; padding: 0;
 	font-family: "Oswald", sans-serif;
-	color: #BF8040;
+	color: #6D4C41;
 	font-size: 30pt;
 	font-weight: normal;
 	text-align: center;
@@ -81,7 +81,7 @@ h1 {
 #greenyellow{
 	margin: 0; padding: 0;
 	font-family: "Oswald", sans-serif;
-	color: #42D71E;
+	color: #76FF03;
 	font-size: 30pt;
 	font-weight: normal;
 	text-align: center;

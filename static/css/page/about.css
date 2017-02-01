@@ -1,3 +1,43 @@
 #about-text {
-    text-indent: 50px;
+    text-indent: 2em;
+}
+
+#krc {
+    width: 40%;
+    height: 10%;
+
+}
+
+#triple-circle {
+    margin-top: 40px; margin-bottom: 96px;
+}
+
+.circle-elem h3 {
+    margin: 16px 0; padding: 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.circle-elem p {
+    margin: 0; padding: 0;
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    color: initial;
+}
+
+.circle-elem p:hover {
+    color: initial;
+}
+
+.circle-elem i {
+    display: inline-block;
+    margin-left: 8px;
+    vertical-align: middle;
+    font-size: 24px;
+}
+
+.circle-elem img {
+    width: 216px; height: 216px;
+    border-radius: 50%;
 }
