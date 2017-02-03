@@ -1,0 +1,24 @@
+#member-list > .member-elem {
+    padding: 6px;
+}
+
+.member-content {
+    padding: 18px;
+    background-color: #DEDEDE;
+    box-shadow: 0 2px 8px -4px #000000;
+}
+
+.member-img {
+    max-width: 100%;
+}
+
+.member-name {
+    font-size: 24pt;
+    font-weight: 800;
+    font-family: "Oswald", sans-serif;
+}
+
+.member-role {
+    padding: 0;
+    font-size: 12pt;
+}
