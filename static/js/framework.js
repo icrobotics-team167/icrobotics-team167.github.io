@@ -70,6 +70,11 @@ $(document).ready(function() {
     $('a.navbar-expand').click(function(e) {
         $('.navbar-links').toggleClass('navbar-expanded');
     });
+
+    // Cause navbar sub-lists to expand when tapped on mobile.
+    $('.navbar-links > ul > li > a').click(function(e) {
+        $(e.target).parent().toggleClass('navbar-expanded');
+    });
     
     // Card grid interaction functions
     var cardInterpolate = () => {
