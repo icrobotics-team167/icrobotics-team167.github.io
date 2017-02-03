@@ -2,10 +2,20 @@
     text-indent: 2em;
 }
 
-#krc {
-    width: 40%;
-    height: 10%;
+#other-title {
+    margin-bottom: 0;
+    color: rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+}
 
+#img {
+    width: 45%;
+    height: 40%;
+}
+
+#imgtall {
+    width: 30%;
+    height: 10%;
 }
 
 #triple-circle {
