@@ -2,6 +2,30 @@
     text-indent: 2em;
 }
 
+#first-logo-container {
+    text-align: center;
+}
+
 #first-logo {
     width: 30%;
+    display: inline-block;
+    margin-bottom: 5px;
 }
+
+.youtube-vids {
+    border:solid 5px #000000;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+}
+
+#first-text-bottom, #first-text-middle, #first-text-top{
+    border: solid 5px #000000;
+    padding: 10px;
+    width: 560px;
+    height:315px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+}
+
