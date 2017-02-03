@@ -131,14 +131,30 @@ navbar {
     overflow-y: hidden;
 }
 
-.navbar-links > ul > li:hover > div > div {
-    max-height: 48px;
+@media (min-width: 769px) {
+
+    .navbar-links > ul > li > div > div {
+        cursor: pointer;
+    }
+
+    .navbar-links > ul > li:hover > div > div {
+        max-height: 48px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .navbar-links > ul > li.navbar-expanded > div > div {
+        max-height: 48px;
+    }
+
 }
 
 .navbar-links > ul > li > div > div > a {
     padding: 8px;
     display: block;
-    background-color: #000000 !important;
+    background-color: #212121 !important;
     color: rgba(255, 255, 255, 0.87);
     transition: background-color 0.4s;
 }
@@ -176,7 +192,6 @@ navbar {
     
     .navbar-links > ul > li {
         max-height: 0;
-        overflow: hidden;
         transition: max-height 1.2s;
     }
     

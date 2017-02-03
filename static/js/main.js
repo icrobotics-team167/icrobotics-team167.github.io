@@ -12,6 +12,9 @@ $(document).ready(function() {
         $('a.navbar-expand').click(function(e) {
             $('.navbar-links').toggleClass('navbar-expanded');
         });
+        $('.navbar-links > ul > li > a').click(function(e) {
+            $(e.target).parent().toggleClass('navbar-expanded');
+        });
     });
     
     $.get('static/html/footer.html', {}, function(r) {
