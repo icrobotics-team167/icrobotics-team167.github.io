@@ -48,7 +48,7 @@
             "media": "yt:mAN1B7oKDXE"
         },
         "robot": {
-            "name": "",
+            "name": "Shanequa",
             "media": "yt:aiDqPDMbpMw",
             "goal": "This year, our goal was to create a robot able to create tall stacks via a forklift-like system.",
             "features": [
@@ -83,7 +83,7 @@
             "media": "yt:f5zWzICG5to"
         },
         "robot": {
-            "name": "Robot Name",
+            "name": "Daenerys",
             "media": "nu",
             "goal": "This should be a sentence or two about our goals for the robot's construction.",
             "features": [
@@ -133,7 +133,7 @@
             "media": "yt:wa5MGEZNrf0"
         },
         "robot": {
-            "name": "Robot Name",
+            "name": "Samantha",
             "media": "nu",
             "goal": "This should be a sentence or two about our goals for the robot's construction.",
             "features": [
