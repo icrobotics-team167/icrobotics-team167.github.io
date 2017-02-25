@@ -13,19 +13,16 @@
 }
 
 .youtube-vids {
-    border:solid 5px #000000;
     margin-top: 5px;
     margin-bottom: 5px;
     border-radius: 20px;
 }
 
 #first-text-bottom, #first-text-middle, #first-text-top{
-    border: solid 5px #000000;
-    padding: 10px;
+    padding: 15px;
     width: 560px;
     height:315px;
-    margin-top: 5px;
+    margin-top: 25px;
     margin-bottom: 5px;
     border-radius: 20px;
 }
-
