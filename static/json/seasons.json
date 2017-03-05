@@ -1,4 +1,60 @@
 {
+    "2017": {
+        "name": "STEAMWorks",
+        "banner": "banner.jpg",
+        "game": {
+            "desc": "In FIRST STEAMWorks, robots are to fire \"fuel\" into the steam boilers, as well as collect gears and deliver them to human players on the field.",
+            "media": "yt:EMiNmJW7enI"
+        },
+        "robot": {
+            "name": "Windy",
+            "media": "yt:IpHAil-ohAY",
+            "goal": "We tasked ourselves with designing and constructing a robot capable of anything. Windy can fire fuel, deploy gears, and climb the rope during the endgame.",
+            "features": [
+                "Omnidirectional Mecanum Drive",
+                "Fuel intake via foam rollers",
+                "Internal fuel storage tank",
+                "Fuel launcher",
+                "Gear collection and storage slot",
+                "Gear deployment via servo",
+                "Climbing winch"
+            ]
+        },
+        "regionals": [
+            {
+                "name": "Iowa Regional",
+                "media": "li:iaregional-venue.jpg",
+                "placing": "Check back after March 22!"
+            },
+            {
+                "name": "Seven Rivers Regional",
+                "media": "li:lcregional-venue.jpg",
+                "placing": "Check back after April 12!"
+            }
+        ],
+        "gallery": [
+            {
+                "media": "yt:jGqABSfVn_E",
+                "caption": "Team 167 at the kickoff in Cedar Falls, IA."
+            },
+            {
+                "media": "li:g_gearasm.jpg",
+                "caption": "Assembling our gear collection mechanism."
+            },
+            {
+                "media": "li:g_geartest.jpg",
+                "caption": "Testing our gear deployment."
+            },
+            {
+                "media": "li:g_drivetrain.jpg",
+                "caption": "Our drive train in its early stages."
+            },
+            {
+                "media": "li:g_css.jpg",
+                "caption": "One of our new members trying to aquaint themselves with CSS."
+            }
+        ]
+    },
     "2016": {
         "name": "Stronghold",
         "banner": "banner.jpg",
