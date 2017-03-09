@@ -96,6 +96,7 @@ main {
 
 .media-gallery-backplate {
     position: relative;
+    background-color: #000000;
     transition: right 0.8s;
     line-height: 0;
     font-size: 0;
@@ -104,6 +105,7 @@ main {
 
 .media-gallery-media {
     display: inline-block;
+    vertical-align: middle;
 }
 
 .media-gallery-back, .media-gallery-fwd {
