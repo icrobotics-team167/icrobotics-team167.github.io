@@ -1,0 +1,11 @@
+#header {
+    text-indent: 64px;
+    margin-bottom: 0;
+    color: rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+}
+
+#text {
+    text-indent: 64px;
+    font-size: 24px;
+}
