@@ -264,3 +264,15 @@
 #top-extra-bar-close {
     cursor: pointer;
 }
+
+@media (max-width: 768px) {
+
+    #top-extra-bar {
+        flex-direction: column;
+    }
+
+    #top-extra-bar-close {
+        margin-top: 4px;
+    }
+
+}
