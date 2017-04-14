@@ -240,3 +240,27 @@
     }
     
 }
+
+#top-extra-bar {
+    width: 100%;
+    position: fixed; display: flex;
+    top: 0; left: 0;
+    padding: 12px;
+    transform: translateY(-100%);
+    transition: transform 1.2s;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 40000;
+}
+
+#top-extra-bar.visible {
+    transform: none;
+}
+
+#top-extra-bar > div > span {
+    font-size: 11pt;
+}
+
+#top-extra-bar-close {
+    cursor: pointer;
+}

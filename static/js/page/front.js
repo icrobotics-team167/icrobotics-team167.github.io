@@ -37,5 +37,14 @@ $(document).ready(function() {
     jWin.resize(function(e) {
         updateVideo($(e.target).width());
     });
+
+    if (document.cookie.indexOf("seen-top-extra-bar-lacrosse-2017") === -1) {
+        var teb = $("#top-extra-bar");
+        teb.addClass("visible");
+        $("#top-extra-bar-close").click(function () {
+            teb.removeClass("visible");
+            document.cookie = "seen-top-extra-bar-lacrosse-2017=1";
+        });
+    }
     
 });
