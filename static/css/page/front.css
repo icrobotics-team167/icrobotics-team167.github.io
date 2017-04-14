@@ -253,6 +253,45 @@
     z-index: 40000;
 }
 
+#match-schedule-box-shade {
+    width: 100vw; height: 100vh;
+    position: fixed; display: none;
+    top: 0; left: 0;
+    background-color: #000;
+    opacity: 0;
+    transition: opacity 0.4s;
+    pointer-events: none;
+    z-index: 50000;
+}
+
+#match-schedule-box-shade.visible {
+    opacity: 0.6;
+    pointer-events: initial;
+}
+
+#match-schedule {
+    width: 75%; height: 75%;
+    position: fixed;
+    top: 12.5%; left: 12.5%;
+    transform: translateY(-100vh);
+    transition: transform 0.4s;
+    text-align: center;
+    pointer-events: none;
+    z-index: 50005;
+}
+
+#match-schedule.visible {
+    transform: none;
+}
+
+#match-schedule > img {
+    max-width: 100%; max-height: 100%;
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: initial;
+}
+
 #top-extra-bar.visible {
     transform: none;
 }
