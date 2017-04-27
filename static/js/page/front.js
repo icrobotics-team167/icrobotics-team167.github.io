@@ -70,7 +70,7 @@ $(document).ready(function() {
     };
 
     boxScreen.click(hideBox);
-
+    /*
     if (document.cookie.indexOf("seen-top-extra-bar-lacrosse-2017") === -1) {
         let teb = $("#top-extra-bar");
         teb.addClass("visible");
@@ -88,5 +88,5 @@ $(document).ready(function() {
         showBoxScreen();
         msgBox.addClass("visible");
     }
-    
+    */
 });
