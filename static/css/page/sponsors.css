@@ -1,93 +1,85 @@
-table {
-	margin: auto;
-	font-family: "Oswald", sans-serif;
-	color: #2C586A;
-	border-spacing: 20px;
+.sponsor-list {
+    padding: 28px 0 38px;
 }
 
-td {
-	font-size: 16pt;
+.sponsor-list-header > i, .sponsor-list-header > h2 {
+    display: inline-block;
+    vertical-align: middle;
 }
 
-/**#by-the-nums > div {
-	white-space: nowrap;
-}**/
-
-.number {
-	display: inline-block;
-	vertical-align: middle;
-	text-align: right;
-	margin-left: 15px;
-	margin-right: 15px;
-	font-size: 50pt;
-	font-family: "Oswald", sans-serif;
-	font-weight: bold;
+.sponsor-list-header > i {
+    margin-right: 8px;
+    margin-bottom: 8px;
+    font-size: 52px;
 }
 
-.text {
-	display: inline-block;
-	vertical-align: middle;
-	text-align: left;
-	margin-left: 15px;
-	margin-right: 15px;
-	font-size: 18pt;
-	font-weight: normal;
-	font-family: "Oswald", sans-serif;
-	color: #2C586A;
+.sponsor-list-header > h2 {
+    font-size: 42px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.3);
 }
 
-h1 {
-	margin: 0; padding: 0;
-	font-family: "Oswald", sans-serif;
-	color: #2C586A;
-	font-size: 30pt;
-	font-weight: normal;
-	text-align: center;
+.sponsor {
+    padding: 12px 0;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    border-bottom: 1px solid #cacaca;
 }
 
-.graphics {
-	width: 90%;
-	display: block;
-	margin: auto;
+.sponsor:first-child {
+    border-top: 1px solid #cacaca;
 }
 
-#gold{
-	margin: 0; padding: 0;
-	font-family: "Oswald", sans-serif;
-	color: #FFD700;
-	font-size: 30pt;
-	font-weight: normal;
-	text-align: center;
+.sponsor-left {
+    width: 100%; height: 0;
+    padding-bottom: 12.5%;
+    position: relative;
+    flex: 1;
 }
 
-#silver{
-	margin: 0; padding: 0;
-	font-family: "Oswald", sans-serif;
-	color: #BDBDBD;
-	font-size: 30pt;
-	font-weight: normal;
-	text-align: center;
+.sponsor-img {
+    width: 100%;
+    position: absolute;
+    top: 50%; left: 0;
+    transform: translateY(-50%);
 }
 
-#bronze{
-	margin: 0; padding: 0;
-	font-family: "Oswald", sans-serif;
-	color: #6D4C41;
-	font-size: 30pt;
-	font-weight: normal;
-	text-align: center;
+.sponsor-emoji {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%) rotate(90deg);
+    font-size: 4.5vw;
+    font-weight: bold;
 }
 
-#greenyellow{
-	margin: 0; padding: 0;
-	font-family: "Oswald", sans-serif;
-	color: #008000;
-	font-size: 30pt;
-	font-weight: normal;
-	text-align: center;
+.sponsor-right {
+    padding-left: 24px;
+    flex: 7;
 }
 
-.sponsors {
-	display: block;
-	margin: auto;
+.sponsor-text, .sponsor-url {
+    display: block;
+}
+
+.sponsor-text {
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+.sponsor-url, .sponsor-url > strong {
+    transition: color 0.2s;
+}
+
+.sponsor-url {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.sponsor-url > strong {
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: normal;
+}
+
+.sponsor-url:hover, .sponsor-url:hover > strong {
+    color: #2196f3;
 }

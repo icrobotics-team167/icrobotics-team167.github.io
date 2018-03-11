@@ -1,4 +1,50 @@
 {
+    "2018": {
+        "name": "Power Up",
+        "banner": "banner.jpg",
+        "game": {
+            "desc": "In FIRST Power Up, teams compete to tip the scales: balances are scattered throughout the field and teams must use \"power cubes\" to tip them in a particular direction.",
+            "media": "yt:HZbdwYiCY74"
+        },
+        "robot": {
+            "name": "Eve",
+            "media": "li:banner.jpg",
+            "goal": "This year, our primary goal was to be able to reliably deliver cubes to the scale. To this end, we designed a robot with a telescopic lifting mechanism and an associated cube-locomotion mechanism.",
+            "features": [
+                "Omnidirectional mecanum drive",
+                "LIDAR-powered feedback drive",
+                "Telescopic lift mechanism",
+                "Power cube I/O mechanism",
+                "Endgame \"climbing\" ramp"
+            ]
+        },
+        "regionals": [
+            {
+                "name": "Iowa Regional",
+                "media": "li:iaregional-venue.jpg",
+                "placing": "To be determined!"
+            },
+            {
+                "name": "Seven Rivers Regional",
+                "media": "li:lcregional-venue.jpg",
+                "placing": "To be determined!"
+            }
+        ],
+        "gallery": [
+            {
+                "media": "li:stack.jpg",
+                "caption": "A test run of an early prototype."
+            },
+            {
+                "media": "li:cables.jpg",
+                "caption": "Team members try to work out cable management."
+            },
+            {
+                "media": "li:bagged.jpg",
+                "caption": "The bagged final product at the end of the build season."
+            }
+        ]
+    },
     "2017": {
         "name": "STEAMWorks",
         "banner": "banner.jpg",
@@ -51,7 +97,7 @@
             },
             {
                 "media": "li:g_css.jpg",
-                "caption": "One of our new members trying to aquaint themselves with CSS."
+                "caption": "One of our new members trying to acquaint themselves with CSS."
             }
         ]
     },
