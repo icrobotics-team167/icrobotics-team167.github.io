@@ -7,7 +7,7 @@
             "media": "yt:HZbdwYiCY74"
         },
         "robot": {
-            "name": "Eve",
+            "name": "Slick",
             "media": "li:banner.jpg",
             "goal": "This year, our primary goal was to be able to reliably deliver cubes to the scale. To this end, we designed a robot with a telescopic lifting mechanism and an associated cube-locomotion mechanism.",
             "features": [
@@ -21,13 +21,18 @@
         "regionals": [
             {
                 "name": "Iowa Regional",
-                "media": "li:iaregional-venue.jpg",
-                "placing": "To be determined!"
+                "media": "li:iowa-team-photo.jpg",
+                "placing": "5th seed; disqualified in quarterfinals."
             },
             {
                 "name": "Seven Rivers Regional",
-                "media": "li:lcregional-venue.jpg",
-                "placing": "To be determined!"
+                "media": "li:lacrosse-team-photo.jpg",
+                "placing": "3rd seed; disqualified in quarterfinals."
+            },
+            {
+                "name": "FIRST Championship",
+                "media": "li:cobo.jpg",
+                "placing": "Check back after April 28!"
             }
         ],
         "gallery": [
