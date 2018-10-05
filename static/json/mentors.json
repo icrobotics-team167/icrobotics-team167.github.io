@@ -15,11 +15,6 @@
     "img": "pownell.mike.jpg"
   },
   {
-    "name": "Dave Raff",
-    "affil": "Northwest Junior High",
-    "img": "raff.dave.jpg"
-  },
-  {
     "name": "Jacob Schares",
     "affil": "Iowa City High",
     "img": "schares.jacob.jpg"
@@ -28,10 +23,5 @@
     "name": "Joe Stramaglia",
     "affil": "Amana Furniture and Clock Shop",
     "img": "stramaglia.joe.jpg"
-  },
-  {
-    "name": "Andrew Chen",
-    "affil": "Proctor and Gamble",
-    "img": null
   }
 ]
