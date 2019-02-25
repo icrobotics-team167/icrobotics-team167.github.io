@@ -1,27 +1,32 @@
 [
   {
     "name": "Mark Whiting",
-    "affil": "Rockwell Collins",
+    "affil": "Collins Aerospace",
     "img": "whiting.mark.jpg"
   },
   {
-    "name": "Scott Channon",
-    "affil": "Rockwell Collins",
-    "img": "channon.scott.jpg"
-  },
-  {
     "name": "Mike Pownell",
-    "affil": "Rockwell Collins",
+    "affil": "Collins Aerospace",
     "img": "pownell.mike.jpg"
   },
   {
-    "name": "Jacob Schares",
-    "affil": "Iowa City High",
-    "img": "schares.jacob.jpg"
+    "name": "Tom Kalman",
+    "affil": "Axiom Consultants",
+    "img": "kalman.tom.png"
   },
   {
-    "name": "Joe Stramaglia",
-    "affil": "Amana Furniture and Clock Shop",
-    "img": "stramaglia.joe.jpg"
+    "name": "Chris Markovich",
+    "affil": "Collins Aerospace",
+    "img": "markovich.chris.png"
+  },
+  {
+    "name": "Margaret Graham",
+    "affil": "Whirlpool",
+    "img": "graham.margaret.png"
+  },
+  {
+    "name": "Jacob Schares",
+    "affil": "Iowa City High School",
+    "img": "schares.jacob.jpg"
   }
 ]
