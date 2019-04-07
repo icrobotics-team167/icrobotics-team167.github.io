@@ -1,4 +1,37 @@
 {
+    "2019": {
+        "name": "Destination: Deep Space",
+        "banner": "banner.jpg",
+        "game": {
+            "desc": "In FIRST Destination: Deep Space, teams attempt to fill two rockets and a cargo ship with \"hatch panels\" and \"cargo\".",
+            "media": "yt:Mew6G_og-PI"
+        },
+        "robot": {
+            "name": "Thwack",
+            "media": "li:banner.jpg",
+            "goal": "This year, our primary goal was to cycle hatch panels and power cubes as quickly as possible, reducing the need for an endgame climb. To this end, we designed a robot with a telescopic lifting mechanism and I/O mechanism for each game piece.",
+            "features": [
+                "6 wheel tank drive",
+                "Limelight 2 vision targeting",
+                "navX feedback drive",
+                "Telescopic lift mechanism",
+                "Cargo I/O mechanism",
+                "Pneumatic hatch panel claw"
+            ]
+        },
+        "regionals": [
+            {
+                "name": "Lake Superior Regional",
+                "media": "li:lake-superior-photo.png",
+                "placing": "43rd seed; disqualified in finals."
+            },
+            {
+                "name": "Seven Rivers Regional",
+                "media": "li:seven-rivers-photo.png",
+                "placing": "6th seed; disqualified in semifinals."
+            }
+        ]
+    },
     "2018": {
         "name": "Power Up",
         "banner": "banner.jpg",
