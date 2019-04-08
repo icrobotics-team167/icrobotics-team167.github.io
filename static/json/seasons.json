@@ -23,12 +23,12 @@
             {
                 "name": "Lake Superior Regional",
                 "media": "li:lake-superior-photo.jpg",
-                "placing": "43rd seed; disqualified in finals."
+                "placing": "43rd seed; eliminated in finals."
             },
             {
                 "name": "Seven Rivers Regional",
                 "media": "li:seven-rivers-photo.jpg",
-                "placing": "6th seed; disqualified in semifinals."
+                "placing": "6th seed; eliminated in semifinals."
             }
         ]
     },
@@ -55,17 +55,17 @@
             {
                 "name": "Iowa Regional",
                 "media": "li:iowa-team-photo.jpg",
-                "placing": "5th seed; disqualified in quarterfinals."
+                "placing": "5th seed; eliminated in quarterfinals."
             },
             {
                 "name": "Seven Rivers Regional",
                 "media": "li:lacrosse-team-photo.jpg",
-                "placing": "3rd seed; disqualified in quarterfinals."
+                "placing": "3rd seed; eliminated in quarterfinals."
             },
             {
                 "name": "FIRST Championship (Detroit) Curie Division",
                 "media": "li:cobo.jpg",
-                "placing": "51st seed Curie Division; disqualified in qualification matches.",
+                "placing": "51st seed Curie Division; eliminated in qualification matches.",
                 "notes": "It was an honor to compete alongside some of the best teams in the world at the Detroit Championship. As part of the Curie Division, we faced off against sixty-six other outstanding teams. We would like to thank everyone that helped us get this far."
             }
         ],
@@ -109,12 +109,12 @@
             {
                 "name": "Iowa Regional",
                 "media": "yt:0O52KjeIsfo",
-                "placing": "12th seed; disqualified in quarterfinals."
+                "placing": "12th seed; eliminated in quarterfinals."
             },
             {
                 "name": "Seven Rivers Regional",
                 "media": "yt:nI18O8dNhWA",
-                "placing": "18th seed; disqualified in qualification matches"
+                "placing": "18th seed; eliminated in qualification matches"
             }
         ],
         "gallery": [
@@ -164,7 +164,7 @@
             {
                 "name": "Iowa Regional",
                 "media": "yt:d-WyoTvjTIE",
-                "placing": "12th seed; disqualified in quarterfinals.",
+                "placing": "12th seed; eliminated in quarterfinals.",
                 "notes": "The first FRC regional in Iowa."
             },
             {
@@ -201,12 +201,12 @@
             {
                 "name": "Wisconsin Regional",
                 "media": "li:team.jpg",
-                "placing": "48th seed; disqualified in quarterfinals."
+                "placing": "48th seed; eliminated in quarterfinals."
             },
             {
                 "name": "Minnesota 10000 Lakes Regional",
                 "media": "nu",
-                "placing": "8th seed; disqualified in quarterfinals."
+                "placing": "8th seed; eliminated in quarterfinals."
             }
         ],
         "gallery": [
@@ -235,12 +235,12 @@
             {
                 "name": "Central Illinois Regional",
                 "media": "nu",
-                "placing": "9th seed; disqualified in quarterfinals"
+                "placing": "9th seed; eliminated in quarterfinals"
             },
             {
                 "name": "Wisconsin Regional",
                 "media": "nu",
-                "placing": "11th seed; disqualified in semifinals"
+                "placing": "11th seed; eliminated in semifinals"
             }
         ]
     },
@@ -263,7 +263,7 @@
             {
                 "name": "Wisconsin Regional",
                 "media": "nu",
-                "placing": "25th seed; disqualified in quarterfinals."
+                "placing": "25th seed; eliminated in quarterfinals."
             }
         ]
     },
@@ -286,7 +286,7 @@
             {
                 "name": "Wisconsin Regional",
                 "media": "nu",
-                "placing": "12th seed; disqualified in finals."
+                "placing": "12th seed; eliminated in finals."
             }
         ]
     }
