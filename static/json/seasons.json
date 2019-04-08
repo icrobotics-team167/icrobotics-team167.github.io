@@ -3,19 +3,19 @@
         "name": "Destination: Deep Space",
         "banner": "banner.jpg",
         "game": {
-            "desc": "In FIRST Destination: Deep Space, teams attempt to fill two rockets and a cargo ship with \"hatch panels\" and \"cargo\".",
+            "desc": "In Destination: Deep Space, teams attempt to complete two rockets and a cargo ship with \"hatch panels\" and \"cargo\". In addition, they can score points by climbing the \"HAB platform\" during endgame.",
             "media": "yt:Mew6G_og-PI"
         },
         "robot": {
             "name": "Thwack",
-            "media": "li:banner.jpg",
-            "goal": "This year, our primary goal was to cycle hatch panels and power cubes as quickly as possible, reducing the need for an endgame climb. To this end, we designed a robot with a telescopic lifting mechanism and I/O mechanism for each game piece.",
+            "media": "li:robot.jpg",
+            "goal": "This year, our primary goal was to cycle hatch panels and cargo as quickly as possible at all heights, reducing the need for an endgame climb. To this end, we designed a robot with a telescopic lifting mechanism and I/O mechanisms for each game piece.",
             "features": [
                 "6 wheel tank drive",
+                "navX and encoder feedback drive",
                 "Limelight 2 vision targeting",
-                "navX feedback drive",
                 "Telescopic lift mechanism",
-                "Cargo I/O mechanism",
+                "Cargo intake and scoring mechanism",
                 "Pneumatic hatch panel claw"
             ]
         },
@@ -33,7 +33,7 @@
         ]
     },
     "2018": {
-        "name": "Power Up",
+        "name": "FIRST Power Up",
         "banner": "banner.jpg",
         "game": {
             "desc": "In FIRST Power Up, teams compete to tip the scales: balances are scattered throughout the field and teams must use \"power cubes\" to tip them in a particular direction.",
@@ -63,9 +63,10 @@
                 "placing": "3rd seed; disqualified in quarterfinals."
             },
             {
-                "name": "FIRST Championship",
+                "name": "FIRST Championship (Detroit) Curie Division",
                 "media": "li:cobo.jpg",
-                "placing": "51st seed Curie Division; disqualified in qualification matches. <br><br> It was an honor to compete alongside some of the best teams in the world at the Detroit Championship. As part of the Curie Division, we faced off against sixty-six other outstanding teams. We would like to thank everyone that helped us get this far."
+                "placing": "51st seed Curie Division; disqualified in qualification matches.",
+                "notes": "It was an honor to compete alongside some of the best teams in the world at the Detroit Championship. As part of the Curie Division, we faced off against sixty-six other outstanding teams. We would like to thank everyone that helped us get this far."
             }
         ],
         "gallery": [
@@ -84,10 +85,10 @@
         ]
     },
     "2017": {
-        "name": "STEAMWorks",
+        "name": "FIRST Steamworks",
         "banner": "banner.jpg",
         "game": {
-            "desc": "In FIRST STEAMWorks, robots are to fire \"fuel\" into the steam boilers, as well as collect gears and deliver them to human players on the field.",
+            "desc": "In FIRST Steamworks, robots are to fire \"fuel\" into the steam boilers, as well as collect gears and deliver them to human players on the field.",
             "media": "yt:EMiNmJW7enI"
         },
         "robot": {
@@ -108,12 +109,12 @@
             {
                 "name": "Iowa Regional",
                 "media": "yt:0O52KjeIsfo",
-                "placing": "12th out of 54"
+                "placing": "12th seed; disqualified in quarterfinals."
             },
             {
                 "name": "Seven Rivers Regional",
                 "media": "yt:nI18O8dNhWA",
-                "placing": "18th out of 51"
+                "placing": "18th seed; disqualified in qualification matches"
             }
         ],
         "gallery": [
@@ -140,10 +141,10 @@
         ]
     },
     "2016": {
-        "name": "Stronghold",
+        "name": "FIRST Stronghold",
         "banner": "banner.jpg",
         "game": {
-            "desc": "The goal of FRC Stronghold was to launch balls into the enemy goals while also \"breaching\" enemy defenses to gain points.",
+            "desc": "The goal of FIRST Stronghold was to launch balls into the enemy goals while also \"breaching\" enemy defenses to gain points.",
             "media": "yt:VqOKzoHJDjA"
         },
         "robot": {
@@ -163,14 +164,14 @@
             {
                 "name": "Iowa Regional",
                 "media": "yt:d-WyoTvjTIE",
-                "placing": "Disqualified at quarterfinal stage.",
+                "placing": "12th seed; disqualified in quarterfinals.",
                 "notes": "The first FRC regional in Iowa."
             },
             {
                 "name": "North Star Regional",
                 "media": "yt:QH_Y7LpYAMc",
-                "placing": "Resigned at semifinal stage.",
-                "notes": "A plastic component of our drive train shattered, rendering our robot immobile."
+                "placing": "13th seed; resigned in semifinals.",
+                "notes": "A plastic component of our drive train shattered, rendering our robot immobile and us unable to continue semifinals."
             }
         ],
         "gallery": [
@@ -198,14 +199,14 @@
         },
         "regionals": [
             {
-                "name": "Milwaukee Regional",
+                "name": "Wisconsin Regional",
                 "media": "li:team.jpg",
-                "placing": "Disqualified/qualified/whatever"
+                "placing": "48th seed; disqualified in quarterfinals."
             },
             {
-                "name": "10000 Lakes Regional",
+                "name": "Minnesota 10000 Lakes Regional",
                 "media": "nu",
-                "placing": "Disqualified at quarterfinals."
+                "placing": "8th seed; disqualified in quarterfinals."
             }
         ],
         "gallery": [
@@ -224,44 +225,22 @@
         },
         "robot": {
             "name": "Daenerys",
-            "media": "nu",
+            "media": "li:banner.jpg",
             "goal": "This should be a sentence or two about our goals for the robot's construction.",
             "features": [
-                "Mechanum drive",
-                "(This should be",
-                "a list of short phrases",
-                "detailing the mechanisms",
-                "and other parts of the robot)"
+                "Unavailable"
             ]
         },
         "regionals": [
             {
-                "name": "Regional One",
+                "name": "Central Illinois Regional",
                 "media": "nu",
-                "placing": "Disqualified/qualified/whatever",
-                "notes": "Optional; just put random notes here if there's something interesting to comment."
+                "placing": "9th seed; disqualified in quarterfinals"
             },
             {
-                "name": "Regional Two",
+                "name": "Wisconsin Regional",
                 "media": "nu",
-                "placing": "Disqualified/qualified/whatever"
-            }
-        ],
-        "gallery": [
-            {
-                "media": "nu",
-                "caption": "This is where you put the rest of the media for this season."
-            },
-            {
-                "media": "nu",
-                "caption": "Media can be pictures, video, etc."
-            }
-        ],
-        "other": [
-            {
-                "title": "Auxillary Info Cards",
-                "content": "This is a completely optional section where you can put extra cards if you need them. Each card has three features, all of them optional: a big title text, a smaller content text, and some form of media.",
-                "media": "nu"
+                "placing": "11th seed; disqualified in semifinals"
             }
         ]
     },
@@ -274,44 +253,17 @@
         },
         "robot": {
             "name": "Samantha",
-            "media": "nu",
+            "media": "li:banner.jpg",
             "goal": "This should be a sentence or two about our goals for the robot's construction.",
             "features": [
-                "Mechanum drive",
-                "(This should be",
-                "a list of short phrases",
-                "detailing the mechanisms",
-                "and other parts of the robot)"
+                "Unavailable"
             ]
         },
         "regionals": [
             {
-                "name": "Regional One",
+                "name": "Wisconsin Regional",
                 "media": "nu",
-                "placing": "Disqualified/qualified/whatever",
-                "notes": "Optional; just put random notes here if there's something interesting to comment."
-            },
-            {
-                "name": "Regional Two",
-                "media": "nu",
-                "placing": "Disqualified/qualified/whatever"
-            }
-        ],
-        "gallery": [
-            {
-                "media": "nu",
-                "caption": "This is where you put the rest of the media for this season."
-            },
-            {
-                "media": "nu",
-                "caption": "Media can be pictures, video, etc."
-            }
-        ],
-        "other": [
-            {
-                "title": "Auxillary Info Cards",
-                "content": "This is a completely optional section where you can put extra cards if you need them. Each card has three features, all of them optional: a big title text, a smaller content text, and some form of media.",
-                "media": "nu"
+                "placing": "25th seed; disqualified in quarterfinals."
             }
         ]
     },
@@ -324,44 +276,17 @@
         },
         "robot": {
             "name": "Robot Name",
-            "media": "nu",
+            "media": "li:banner.jpg",
             "goal": "This should be a sentence or two about our goals for the robot's construction.",
             "features": [
-                "Mechanum drive",
-                "(This should be",
-                "a list of short phrases",
-                "detailing the mechanisms",
-                "and other parts of the robot)"
+                "Unavailable"
             ]
         },
         "regionals": [
             {
-                "name": "Regional One",
+                "name": "Wisconsin Regional",
                 "media": "nu",
-                "placing": "Disqualified/qualified/whatever",
-                "notes": "Optional; just put random notes here if there's something interesting to comment."
-            },
-            {
-                "name": "Regional Two",
-                "media": "nu",
-                "placing": "Disqualified/qualified/whatever"
-            }
-        ],
-        "gallery": [
-            {
-                "media": "nu",
-                "caption": "This is where you put the rest of the media for this season."
-            },
-            {
-                "media": "nu",
-                "caption": "Media can be pictures, video, etc."
-            }
-        ],
-        "other": [
-            {
-                "title": "Auxillary Info Cards",
-                "content": "This is a completely optional section where you can put extra cards if you need them. Each card has three features, all of them optional: a big title text, a smaller content text, and some form of media.",
-                "media": "nu"
+                "placing": "12th seed; disqualified in finals."
             }
         ]
     }
