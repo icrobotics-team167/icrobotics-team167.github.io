@@ -1,32 +1,32 @@
 [
   {
     "name": "Mark Whiting",
-    "affil": "Collins Aerospace",
+    "bio": "Mark is a Principal Systems Engineer for Collins Aerospace. He has spent 34+ years working on GPS products as a designer/technical lead for the Navigation Department. He currently works on various development projects for the core components that are the cornerstones for the product lines within the GPS Navigation department. Mark graduated from the University of Iowa with a bachelors degree in Electrical and Computer Engineering.",
     "img": "whiting.mark.jpg"
   },
   {
     "name": "Mike Pownell",
-    "affil": "Collins Aerospace",
+    "bio": "Mike is a Senior Engineering Manager for Collins Aerospace. He has spent 23+ years working on military navigation products as a design engineer. He is currently an engineering manager leading a team of 12 engineers that support GPS embedded products for Airborne and Weapons platforms. Mike graduated from South Dakota State University with a bachelor degree in Electrical Engineering and from the University of Iowa with a masters in business degree.  Mike has been a coach and mentor for FRC, FTC, FLL and Jr FLL teams for over 20 years.",
     "img": "pownell.mike.jpg"
   },
   {
+    "name": "Jacob Schares",
+    "bio": "Iowa City High School",
+    "img": "schares.jacob.jpg"
+  },
+  {
     "name": "Tom Kalman",
-    "affil": "Axiom Consultants",
+    "bio": "Tom is the Structural Design lead for Axiom Consultants. He works on a variety of structural designs - primarily buildings and infrastructure offerings. Tom also performs analysis of existing buildings and prescribes solutions for renovations and adjustments. Tom coordinates many of Axioms photovoltaic (solar) design efforts including structural and electrical team offerings. He also provides construction support on a number of projects Axiom is involved in. Tom graduated from the University of Iowa with a bachelors degree in Civil Engineering with a structural emphasis. ",
     "img": "kalman.tom.png"
   },
   {
     "name": "Chris Markovich",
-    "affil": "Collins Aerospace",
+    "bio": "Chris is a systems engineer for Commscope (previously Arris). He works on research and development in both wired communications (fiber and cable) as well as wireless communications (5G and wifi).  He is part of the team that defines hardware, software, and system specifications and requirements for the computer networking industry. Chris’s projects involve big data analysis, machine learning, and embedded system design to improve network robustness and connection speed. Chris has both his bachelors and masters degree in Electrical Engineering from Purdue University with an emphasis on communication systems.",
     "img": "markovich.chris.png"
   },
   {
     "name": "Margaret Graham",
-    "affil": "Whirlpool",
+    "bio": "Margaret graduated in the spring of 2018  from Purdue University with a degree in Mechanical engineering. She is now a manufacturing engineer at Whirlpool Corporation's premium refrigeration plant in Amana, Iowa. Her responsibilities include maintaining and improving the assembly process for the cooling systems of over 1 million refrigerators per year. Margaret has been involved with FIRST since 2013 as a student, event volunteer, event coordinator, and now as a mentor.",
     "img": "graham.margaret.png"
-  },
-  {
-    "name": "Jacob Schares",
-    "affil": "Iowa City High School",
-    "img": "schares.jacob.jpg"
   }
 ]

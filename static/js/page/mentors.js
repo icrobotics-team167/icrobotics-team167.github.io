@@ -14,7 +14,7 @@ $(document).ready(function() {
             ).append(
                 $('<h2>', {'class': 'mentor-name'}).text(mentor.name)
             ).append(
-                $('<p>', {'class': 'mentor-affil'}).text(mentor.affil)
+                $('<p>', {'class': 'mentor-bio'}).text(mentor.bio)
             )
         );
     };
