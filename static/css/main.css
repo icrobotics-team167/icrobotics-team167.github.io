@@ -106,6 +106,10 @@ footer > div.row {
     background-color: #F10075;
 }
 
+#social-elem-snapchat:hover {
+    background-color: #FFFC00;
+}
+
 #social-elem-youtube:hover {
     background-color: #FF0000;
 }
