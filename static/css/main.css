@@ -90,6 +90,10 @@ footer > div.row {
     opacity: 1;
 }
 
+#social-elem-email:hover {
+    background-color: #2CB34D;
+}
+
 #social-elem-facebook:hover {
     background-color: #4267B2;
 }
