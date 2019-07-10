@@ -83,3 +83,11 @@
 .element-url:hover, .element-url:hover > strong {
     color: #2196f3;
 }
+
+.no-website {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.no-website:hover {
+    color: rgba(0, 0, 0, 0.4);
+}
