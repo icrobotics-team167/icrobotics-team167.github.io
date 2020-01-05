@@ -1,4 +1,32 @@
 {
+    "2020": {
+        "name": "Infinite Recharge",
+        "banner": "banner.png",
+        "game": {
+            "desc": "In Infinite Recharge, teams launch power cells into power port, spin and align a control panel, and climb a shield generator.",
+            "media": "yt:gmiYWTmFRVE"
+        },
+        "robot": {
+            "name": "TBA",
+            "media": "li:../../no-image.png",
+            "goal": "TBD",
+            "features": [
+                "TBD"
+            ]
+        },
+        "regionals": [
+            {
+                "name": "Lake Superior Regional",
+                "media": "li:../../no-image.png",
+                "placing": "TBD"
+            },
+            {
+                "name": "Iowa Regional",
+                "media": "li:../../no-image.png",
+                "placing": "TBD"
+            }
+        ]
+    },
     "2019": {
         "name": "Destination: Deep Space",
         "banner": "banner.jpg",
