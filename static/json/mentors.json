@@ -10,11 +10,6 @@
     "img": "pownell.mike.jpg"
   },
   {
-    "name": "Jacob Schares",
-    "bio": "Jacob is a math teacher at Iowa City High School. He has spent 7 years at City High and also spent time teaching at the Kirkwood Regional Center in Coralville. Jacob’s time as mentor and coach has been reduced so he can spend more time with family.",
-    "img": "schares.jacob.jpg"
-  },
-  {
     "name": "Tom Kalman",
     "bio": "Tom is the Structural Design lead for Axiom Consultants. He works on a variety of structural designs - primarily buildings and infrastructure offerings. Tom also performs analysis of existing buildings and prescribes solutions for renovations and adjustments. Tom coordinates many of Axioms photovoltaic (solar) design efforts including structural and electrical team offerings. He also provides construction support on a number of projects Axiom is involved in. Tom graduated from the University of Iowa with a bachelors degree in Civil Engineering with a structural emphasis. ",
     "img": "kalman.tom.png"
@@ -25,8 +20,13 @@
     "img": "markovich.chris.jpg"
   },
   {
-    "name": "Margaret Graham",
-    "bio": "Margaret graduated in the spring of 2018  from Purdue University with a degree in Mechanical engineering. She is now a manufacturing engineer at Whirlpool Corporation's premium refrigeration plant in Amana, Iowa. Her responsibilities include maintaining and improving the assembly process for the cooling systems of over 1 million refrigerators per year. Margaret has been involved with FIRST since 2013 as a student, event volunteer, event coordinator, and now as a mentor.",
-    "img": "graham.margaret.png"
+    "name": "Jacob Schares",
+    "bio": "Jacob is a math teacher at Iowa City High School. He has spent 7 years at City High and also spent time teaching at the Kirkwood Regional Center in Coralville. Jacob’s time as mentor and coach has been reduced so he can spend more time with family.",
+    "img": "schares.jacob.jpg"
+  },
+  {
+    "name": "Jeremy Hartl",
+    "bio": "Jeremy is an electrical engineer at Collins Aerospace.",
+    "img": "hartl.jeremy.png"
   }
 ]
