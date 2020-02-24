@@ -7,11 +7,16 @@
             "media": "yt:gmiYWTmFRVE"
         },
         "robot": {
-            "name": "TBA",
-            "media": "li:../../no-image.png",
-            "goal": "TBD",
+            "name": "Replay",
+            "media": "yt:Sa1BzK3cBjw",
+            "goal": "With the abolition of Stop Build Day in 2020, we designed an ambitious robot. Our top priority was cycling power cells quickly while avoiding defense. So, we created a short robot with a circular indexing system and a vision-enabled shooter.",
             "features": [
-                "TBD"
+                "8 wheel drop-center tank drive",
+                "Human player station intake",
+                "Over-bumper ground intake",
+                "Circular ball indexing system",
+                "Limelight-enabled turret",
+                "Shooter under 28\""
             ]
         },
         "regionals": [
@@ -41,7 +46,7 @@
             "features": [
                 "6 wheel tank drive",
                 "navX and encoder feedback drive",
-                "Limelight 2 vision targeting",
+                "Limelight vision targeting",
                 "Telescopic lift mechanism",
                 "Cargo intake and scoring mechanism",
                 "Pneumatic hatch panel claw"
