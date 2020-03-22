@@ -1,7 +1,7 @@
 {
     "2020": {
         "name": "Infinite Recharge",
-        "banner": "banner.png",
+        "banner": "banner.jpg",
         "game": {
             "desc": "In Infinite Recharge, teams launch power cells into power port, spin and align a control panel, and climb a shield generator.",
             "media": "yt:gmiYWTmFRVE"
@@ -9,7 +9,7 @@
         "robot": {
             "name": "Replay",
             "media": "yt:Sa1BzK3cBjw",
-            "goal": "With the abolition of Stop Build Day in 2020, we designed an ambitious robot. Our top priority was cycling power cells quickly while avoiding defense. So, we created a short robot with a circular indexing system and a vision-enabled shooter.",
+            "goal": "With the abolition of Stop Build Day in 2020, we designed an ambitious robot. Our top priorities were cycling power cells quickly while avoiding defense and climbing. So, we created a short robot with a circular indexing system and a vision-enabled shooter. In addition, we designed a fast climbing mechanism.",
             "features": [
                 "8 wheel drop-center tank drive",
                 "Human player station intake",
@@ -28,13 +28,13 @@
             },
             {
                 "name": "Iowa Regional",
-                "media": "li:../../no-image.png",
-                "placing": "TBD"
+                "media": "li:infinite-recharge.png",
+                "placing": "Event suspended due to the COVID-19 outbreak"
             },
             {
                 "name": "FIRST Detroit Championship",
-                "media": "li:../../no-image.png",
-                "placing": "TBD"
+                "media": "li:infinite-recharge.png",
+                "placing": "Event canceled due to the COVID-19 outbreak"
             }
         ]
     },
