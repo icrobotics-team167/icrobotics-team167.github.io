@@ -7,23 +7,23 @@ $(document).ready(function() {
         e.css('background-color', col);
         e.css('border-top-color', col);
     });
-    
+
     $('div.lp-right-text').each(function(i, o) {
         let e = $(o);
         let col = e.attr('data-colour');
         e.css('background-color', col);
         e.css('border-bottom-color', col);
     });
-    
+
     $('div.lp-left-img > div, div.lp-right-img > div').each(function(i, o) {
         let e = $(o);
         let bg = e.attr('data-bg');
         e.css('background-image', 'url({bg})'.supplant({bg: bg}));
     });
-    
-    let years = new Date().getFullYear() - 1998;
+
+    let years = new Date().getFullYear() - 1998 + 1;
     $('#year-count').text('{years} Years of Excellence'.supplant({years: years}));
-    
+
     let video = $('#banner-vid');
     let updateVideo = function(w) {
         if (w > 768)
@@ -31,7 +31,7 @@ $(document).ready(function() {
         else
             video.get(0).pause();
     };
-    
+
     let jWin = $(window);
     updateVideo(jWin.width());
     jWin.resize(function(e) {
