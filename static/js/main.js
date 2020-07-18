@@ -1,18 +1,18 @@
 'use strict';
-$(document).ready(function() {
+$(() => {
     
-    document.title = pageData.name + ' « Iowa City Robotics';
+    document.title = `${pageData.name} « Iowa City Robotics`;
     
-    var mainDiv = $('main');
+    const mainDiv = $('main');
     
     $.get('static/html/header.html', {}, function(r) {
         let hDiv = $(r);
-        hDiv.find('.navbar-links ul li a[href=\'{target}\']'.supplant({target: pageData.nav})).parent().addClass('navbar-active');
+        hDiv.find(`.navbar-links ul li a[href=\'${pageData.nav}\']`).parent().addClass('navbar-active');
         mainDiv.before(hDiv);
-        $('a.navbar-expand').click(function(e) {
+        $('a.navbar-expand').on('click', () => {
             $('.navbar-links').toggleClass('navbar-expanded');
         });
-        $('.navbar-links > ul > li > a').click(function(e) {
+        $('.navbar-links > ul > li > a').on('click', () => {
             $(e.target).parent().toggleClass('navbar-expanded');
         });
     });
@@ -22,10 +22,11 @@ $(document).ready(function() {
         $('a.a-newtab').attr('target', '_BLANK');
     });
     
-    var mainHdr = $('#main-header');
+    const mainHdr = $('#main-header');
     if (!!mainHdr && mainHdr.size() > 0) {
-        let p = document.location.pathname;
-        mainHdr.css('background-image', 'url("static/img/header/{pageName}.jpg")'.supplant({pageName: p.substring(p.lastIndexOf('/') + 1, p.lastIndexOf('.'))}));
+        const fileName = document.location.pathname.split('/').pop();
+        const pageName = fileName.endsWith('.html') ? fileName.substring(0, fileName.length - 5) : fileName;
+        mainHdr.css('background-image', `url("static/img/header/${pageName}.jpg")`);
     }
     
 });
