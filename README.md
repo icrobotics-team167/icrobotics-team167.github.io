@@ -1,3 +1,1 @@
-Site v3
-=====
-...because the first two weren't good enough
+# [Team Website](https://www.iowacityrobotics.org)

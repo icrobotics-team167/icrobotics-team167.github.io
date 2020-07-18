@@ -58,11 +58,12 @@
     transform: translate(-50%, -50%);
     color: #FFFFFF;
     background-color: #2CB34D;
+    transition: 0.25s;
     box-shadow: 0 2px 16px -2px #000000
 }
 
 #banner-link:hover {
-    color: #FFFFFF;
+    background-color: #289E45;
 }
 
 #front-sep {

@@ -18,11 +18,12 @@
                         <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="about.html">About</a>
+                        <a id="nav-about">About</a>
                         <div class="d-text-left">
                             <div><a href="about.html">About Us</a></div>
                             <div><a href="first.html">About FIRST</a></div>
                             <div><a href="mentors.html">Mentors</a></div>
+                            <div><a href="newsletters.html">Newsletters</a></div>
                             <div><a href="contact.html">Contact</a></div>
                         </div>
                     </li>
@@ -33,7 +34,7 @@
                         <a href="calendar.html">Calendar</a>
                     </li>
                     <li>
-                        <a href="sponsors.html">Sponsors</a>
+                        <a id="nav-sponsors">Sponsors</a>
                         <div class="d-text-left">
                             <div><a href="sponsors.html">Our Sponsors</a></div>
                             <div><a href="support.html">Support Us</a></div>
@@ -45,3 +46,25 @@
         </div>
     </navbar>
 </header>
+<script>
+    // https://stackoverflow.com/a/4819886/7300063
+    const isTouchDevice = () => {
+        const prefixes = ' -webkit- -moz- -o- -ms- '.split(' ');
+        const mq = query => {
+            return window.matchMedia(query).matches;
+        };
+        if (('ontouchstart' in window) || window.DocumentTouch && document instanceof DocumentTouch) {
+            return true;
+        }
+        const query = ['(', prefixes.join('touch-enabled),('), 'heartz', ')'].join('');
+        return mq(query);
+    };
+
+    const navAbout = document.getElementById('nav-about');
+    const navSponsors = document.getElementById('nav-sponsors');
+
+    if (!isTouchDevice()) {
+        navAbout.href = 'about.html';
+        navSponsors.href = 'sponsors.html';
+    }
+</script>
