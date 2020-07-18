@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139208286-2"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-139208286-2');
+        </script>
+
+        <meta charset="UTF-8">
+        <meta name="description" content="FIRST Robotics Competition team based out of Iowa City.">
+        <meta name="keywords" content="FRC, FIRST, Robotics, West High School, City High School, Iowa City">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1">
+        <link rel="icon" href="static/img/logos/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="static/css/framework.css" media="screen">
+        <link rel="stylesheet" href="static/css/main.css" media="screen">
+        <link rel="stylesheet" href="static/css/page/contact.css" media="screen">
+    </head>
+    <body>
+        <script src="static/js/jquery.min.js"></script>
+        <script src="static/js/framework.js" charset="utf-8"></script>
+        <script charset="utf-8">
+            let pageData = { name: 'Contact', nav: 'about.html' }
+        </script>
+        <script src="static/js/main.js" charset="utf-8"></script>
+        <main id="main">
+            <div id="main-header" class="text-light">
+                <div id="heading-shade"></div>
+                <h2 id="heading-title">Contact</h2>
+            </div>
+            <div id="main-content" class="mar-page">
+                <p>
+                    Fill out the form below or send us an email at <a href="mailto:iowacityrobotics167@gmail.com">iowacityrobotics167@gmail.com</a>,
+                    and we will get in touch with you as soon as we can.
+                </p>
+                <form id="contact-form" action="https://formspree.io/mgenprby" method="POST">
+                    <label for="contact-name">Name<span class="red"> *</span></label>
+                    <input type="text" name="name" id="contact-name" placeholder="Jane Doe" required>
+
+                    <label for="contact-email">Email address<span class="red"> *</span></label>
+                    <input type="email" name="_replyto" id="contact-email" placeholder="doe.jane@gmail.com" required>
+
+                    <label for="contact-message">Message<span class="red"> *</span></label>
+                    <textarea name="message" id="contact-message" rows="10" placeholder="I would like to inquire about…" required></textarea>
+
+                    <button type="submit" id="submit-button">Submit</button>
+                </form>
+            </div>
+        </main>
+    </body>
+</html>

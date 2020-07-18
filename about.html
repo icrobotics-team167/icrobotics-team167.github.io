@@ -24,7 +24,7 @@
         <script src="static/js/jquery.min.js"></script>
         <script src="static/js/framework.js" charset="utf-8"></script>
         <script charset="utf-8">
-            var pageData = { name: 'About Us', nav: 'about.html' };
+            let pageData = { name: 'About Us', nav: 'about.html' };
         </script>
         <script src="static/js/main.js" charset="utf-8"></script>
         <main id="main">
@@ -33,27 +33,40 @@
                 <h2 id="heading-title">About Us</h2>
             </div>
             <div id="main-content" class="mar-page">
-                <p id="about-text">
-                    We are Iowa City Robotics Team 167 Children of the Corn.
-                    Founded in 1998, our team is composed of students in ninth through twelfth grade from several Iowa City area high schools.
-                    Currently, our team consists of students from Iowa City West High School, Iowa City High School, and Liberty High School.
-                    We are a diverse group of over 30 members. We compete in FRC, or the FIRST Robotics Competition, and have been competing for 22 years!
-                    In 2020, we won the Lake Superior Regional, qualifying for the world championship for the second time in three years.
-                    We work hard to extend the FIRST motto of gracious professionalism and teach valuable STEM skills to each student who joins the team.
+                <p>
+                    We are Iowa City Robotics—the oldest high school robotics team in the state of Iowa. Made up of just
+                    over 30 students and 6 adult mentors from local companies and schools, our team develops engineering,
+                    business, and teamwork skills by participating in the FIRST® Robotics Competition. In this competition,
+                    we design, build, and program a 125 pound robot in roughly six weeks to compete against other teams
+                    from all over the country.
                 </p>
                 <br>
-                <img id="img" src="static/img/about/krc.jpg" hspace="35">
-                <img id="img" src="static/img/about/workshop2.jpg">
+                <div class="about-img-group-2">
+                    <img src="static/img/about/work1.png">
+                    <img src="static/img/about/robot.jpg">
+                </div>
                 <br>
-                <br>
-                <p id="about-text">
-                Kirkwood Community College generously provided us workspace at the Kirkwood Regional Center in Coralville, Iowa.
-                This is where we have meetings, build, work with mentors, cut materials, create web content, and spend the majority of our time during build season.
+                <p>
+                    As a 501(c)(3) nonprofit organization, our team works to encourage STEM careers for our members. In
+                    addition, we do outreach in the Iowa City community to foster STEM learning. This includes visiting
+                    elementary schools, running booths at community events, and holding summer camps for younger students.
                 </p>
                 <br>
-                <img id="img" src="static/img/about/programming.jpg" hspace="35">
-                <img id="img" src="static/img/about/workshop.jpg">
+                <div class="about-img-group-2">
+                    <img src="static/img/about/outreach.png">
+                    <img src="static/img/about/camp.jpg">
+                </div>
                 <br>
+                <p>
+                    Without generous sponsorship from local businesses, our team could not survive. Kirkwood Community
+                    College provides workspace for us at the Kirkwood Regional Center in Coralville. In addition, several
+                    <a href="sponsors.html">local companies</a> support our team by donating money, time, or products.
+                </p>
+                <br>
+                <div class="about-img-group-2">
+                    <img src="static/img/about/krc.jpg">
+                    <img src="static/img/about/work2.jpg">
+                </div>
                 <br>
             </div>
             <div id="triple-circle" class="row d-mar-page">
@@ -72,20 +85,13 @@
                     <a href="getinvolved.html"><p>Learn How To Join</p><i class="mdi mdi-arrow-right-bold-circle"></i></a>
                 </div>
                 <div class="circle-elem elem-4 text-center m-pad-vert">
-                    <a href="socialmedia.html">
+                    <a href="contact.html">
                         <img src="static/img/frontpage/getinvolved.jpg" alt="Get Involved"/>
                     </a>
                     <h3>Contact Us!</h3>
-                    <a href="socialmedia.html"><p>Our Social Media</p><i class="mdi mdi-arrow-right-bold-circle"></i></a>
+                    <a href="contact.html"><p>Our Social Media</p><i class="mdi mdi-arrow-right-bold-circle"></i></a>
                 </div>
+            </div>
         </main>
-        <script>
-            document.getElementById('about-text').innerHTML = `We are Iowa City Robotics Team 167 Children of the Corn.
-                    Founded in 1998, our team is composed of students in ninth through twelfth grade from several Iowa City area high schools.
-                    Currently, our team consists of students from Iowa City West High School, Iowa City High School, and Liberty High School.
-                    We are a diverse group of over 30 members. We compete in FRC, or the FIRST Robotics Competition, and have been competing for ${new Date().getFullYear() - 1998} years!
-                    In 2019, we participated in two regional competitions and got to finals and semifinals, respectively.
-                    We work hard to extend the FIRST motto of gracious professionalism and teach valuable STEM skills to each student that joins the team.`;
-        </script>
     </body>
 </html>

@@ -1,28 +1,29 @@
 'use strict';
-$(document).ready(function() {
 
-    let menList = $('#mentor-list');
+$(() => {
 
-    let imageFor = function(img) {
-        return !img ? 'static/img/no-image-square.png' : 'static/img/mentors/' + img;
-    };
+    const mentorContainer = $('#mentor-container');
 
-    let generateMentorBlock = function(mentor) {
-        return $('<div>', {'class': 'elem-3 mentor-elem'}).append(
-            $('<div>', {'class': 'mentor-content'}).append(
-                $('<img>', {'class': 'mentor-img'}).attr('src', imageFor(mentor.img))
-            ).append(
-                $('<h2>', {'class': 'mentor-name'}).text(mentor.name)
-            ).append(
-                $('<p>', {'class': 'mentor-bio'}).text(mentor.bio)
-            )
-        );
-    };
-    
-    $.getJSON('static/json/mentors.json', function(r) {
-        $.each(r, function(i, men) {
-            menList.append(generateMentorBlock(men));
+    const getImageUrl = imgName => {
+        return imgName ? `static/img/mentors/${imgName}` : 'static/img/no-image-square.png';
+    }
+
+    const generateMentorCard = mentor => {
+        return `
+            <div class="mentor-card">
+                <img class="mentor-img" src="${getImageUrl(mentor.img)}" alt="Picture of ${mentor.name}">
+                <h2 class="mentor-name">${mentor.name}</h2>
+                <h3 class="mentor-tag">${mentor.tag ? mentor.tag : ''}</h3>
+                <p class="mentor-bio">${mentor.bio}</p>
+            </div>
+        `;
+    }
+
+    $.getJSON('static/json/mentors.json', json => {
+        console.log('test');
+        $.each(json, (index, mentor) => {
+            console.log(mentor);
+            mentorContainer.append(generateMentorCard(mentor));
         });
     });
-
 });

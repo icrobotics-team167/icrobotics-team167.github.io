@@ -1,0 +1,39 @@
+#contact-form {
+    width: 100%;
+}
+
+#contact-form label {
+    font-size: 16px;
+}
+
+#contact-form input, #contact-form textarea {
+    background-color: #F5F5F5;
+    border: 0 solid #FFFFFF;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 14px;
+    margin: 4px 0 12px 0;
+    padding: 10px;
+    width: 100%;
+}
+
+#submit-button {
+    background-color: #F5F5F5;
+    border: 0 solid #FFFFFF;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    transition: 0.25s;
+    width: 100%;
+}
+
+#submit-button:hover {
+    background-color: #F0F0F0;
+    cursor: pointer;
+}
+
+.red {
+    color: #FF0000;
+}

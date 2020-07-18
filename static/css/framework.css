@@ -105,15 +105,15 @@ navbar {
 
 .navbar-links > ul > li > a:hover {
     color: #FFFFFF;
-    background-color: #37474F;
+    background-color: #3C4C52;
 }
 
 .navbar-links > ul > li.navbar-active a {
-    background-color: #607D8B;
+    background-color: #495D64;
 }
 
 .navbar-links > ul > li.navbar-active a:hover {
-    background-color: #78909C;
+    background-color: #3C4C52;
 }
 
 .navbar-links > ul > li > div {
@@ -444,4 +444,13 @@ footer {
     .m-pad-hor { padding: 0 32px }
     .m-hide { display: none !important; }
     
+}
+
+.circle-elem i {
+    color: #2CB34D;
+    transition: .25s;
+}
+
+.circle-elem i:hover {
+    color: #289E45;
 }

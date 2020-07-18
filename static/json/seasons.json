@@ -29,7 +29,7 @@
             {
                 "name": "Iowa Regional",
                 "media": "li:infinite-recharge.png",
-                "placing": "Event suspended due to the COVID-19 outbreak"
+                "placing": "Event canceled due to the COVID-19 outbreak"
             },
             {
                 "name": "FIRST Detroit Championship",
@@ -223,7 +223,7 @@
         "name": "Recycle Rush",
         "banner": "banner.jpg",
         "game": {
-            "desc": "In Recycle Rush, our robot had to stack recycling crates and trash bins to earn points.",
+            "desc": "In Recycle Rush, teams had to stack recycling crates and trash bins to earn points.",
             "media": "yt:W6UYFKNGHJ8"
         },
         "robot": {
@@ -258,13 +258,13 @@
         "name": "Aerial Assist",
         "banner": "banner.jpg",
         "game": {
-            "desc": "This should be a sentence or two about how the game works. Don't go too in-depth because the game reveal video will be here too.",
+            "desc": "In Aerial Assist, teams work to move large exercise balls down the field. Teams earn large bonuses for assisting teammates in scoring.",
             "media": "yt:f5zWzICG5to"
         },
         "robot": {
             "name": "Daenerys",
             "media": "li:banner.jpg",
-            "goal": "This should be a sentence or two about our goals for the robot's construction.",
+            "goal": "Description unavailable",
             "features": [
                 "Unavailable"
             ]
@@ -286,13 +286,13 @@
         "name": "Ultimate Ascent",
         "banner": "banner.jpg",
         "game": {
-            "desc": "This should be a sentence or two about how the game works. Don't go too in-depth because the game reveal video will be here too.",
+            "desc": "In Ultimate Ascent, teams pick up and launch frisbees into narrow goals above the field. Then, teams scale a runged pyramid.",
             "media": "yt:wa5MGEZNrf0"
         },
         "robot": {
             "name": "Samantha",
             "media": "li:banner.jpg",
-            "goal": "This should be a sentence or two about our goals for the robot's construction.",
+            "goal": "Description unavailable",
             "features": [
                 "Unavailable"
             ]
@@ -309,13 +309,13 @@
         "name": "Rebound Rumble",
         "banner": "banner.jpg",
         "game": {
-            "desc": "This should be a sentence or two about how the game works. Don't go too in-depth because the game reveal video will be here too.",
+            "desc": "In Rebound Rumble, teams try to score foam basketballs in baskets with vision targets.",
             "media": "yt:nOXsdhZZSdM"
         },
         "robot": {
             "name": "Robot Name",
             "media": "li:banner.jpg",
-            "goal": "This should be a sentence or two about our goals for the robot's construction.",
+            "goal": "Description unavailable",
             "features": [
                 "Unavailable"
             ]

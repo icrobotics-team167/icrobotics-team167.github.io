@@ -1,7 +1,7 @@
 'use strict';
 $(document).ready(function() {
     
-    document.title = 'Iowa City Robotics » ' + pageData.name;
+    document.title = pageData.name + ' « Iowa City Robotics';
     
     var mainDiv = $('main');
     
