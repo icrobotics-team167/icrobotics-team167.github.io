@@ -23,12 +23,15 @@
                             <div><a href="about.html">About Us</a></div>
                             <div><a href="first.html">About FIRST</a></div>
                             <div><a href="mentors.html">Mentors</a></div>
-                            <div><a href="newsletters.html">Newsletters</a></div>
                             <div><a href="contact.html">Contact</a></div>
                         </div>
                     </li>
                     <li>
-                        <a href="seasons.html">Seasons</a>
+                        <a id="nav-history">History</a>
+                        <div class="d-text-left">
+                            <div><a href="seasons.html">Seasons</a></div>
+                            <div><a href="newsletters.html">Newsletters</a></div>
+                        </div>
                     </li>
                     <li>
                         <a href="calendar.html">Calendar</a>
@@ -40,7 +43,9 @@
                             <div><a href="support.html">Support Us</a></div>
                         </div>
                     </li>
-                    <li><a href="getinvolved.html">Get Involved</a></li>
+                    <li>
+                        <a href="getinvolved.html">Get Involved</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -61,10 +66,12 @@
     };
 
     const navAbout = document.getElementById('nav-about');
+    const navHistory = document.getElementById('nav-history');
     const navSponsors = document.getElementById('nav-sponsors');
 
     if (!isTouchDevice()) {
         navAbout.href = 'about.html';
+        navHistory.href = 'seasons.html';
         navSponsors.href = 'sponsors.html';
     }
 </script>
