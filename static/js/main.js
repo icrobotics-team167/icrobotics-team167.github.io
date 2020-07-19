@@ -5,19 +5,19 @@ $(() => {
     
     const mainDiv = $('main');
     
-    $.get('static/html/header.html', {}, function(r) {
+    $.get('static/html/header.html', {}, r => {
         let hDiv = $(r);
         hDiv.find(`.navbar-links ul li a[href=\'${pageData.nav}\']`).parent().addClass('navbar-active');
         mainDiv.before(hDiv);
         $('a.navbar-expand').on('click', () => {
             $('.navbar-links').toggleClass('navbar-expanded');
         });
-        $('.navbar-links > ul > li > a').on('click', () => {
-            $(e.target).parent().toggleClass('navbar-expanded');
+        $('.navbar-links > ul > li > a').on('click', event => {
+            $(event.target).parent().toggleClass('navbar-expanded');
         });
     });
     
-    $.get('static/html/footer.html', {}, function(r) {
+    $.get('static/html/footer.html', {}, r => {
         mainDiv.after($(r));
         $('a.a-newtab').attr('target', '_BLANK');
     });
