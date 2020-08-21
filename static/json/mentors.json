@@ -1,14 +1,14 @@
 [
   {
     "name": "Mark Whiting",
-    "tag": "Collins Aerospace",
-    "bio": "Mark is a Principal Systems Engineer for Collins Aerospace. He has spent 34+ years working on GPS products as a designer/technical lead for the Navigation Department. He currently works on various development projects for the core components that are the cornerstones for the product lines within the GPS Navigation department. Mark graduated from the University of Iowa with a bachelors degree in Electrical and Computer Engineering.",
+    "tag": "BAE Systems",
+    "bio": "Mark is a Principal Systems Engineer for BAE Systems. He has spent 34+ years working on GPS products as a designer/technical lead for the Navigation Department. He currently works on various development projects for the core components that are the cornerstones for the product lines within the GPS Navigation department. Mark graduated from the University of Iowa with a bachelors degree in Electrical and Computer Engineering.",
     "img": "whiting.mark.jpg"
   },
   {
     "name": "Mike Pownell",
-    "tag": "Collins Aerospace",
-    "bio": "Mike is a Senior Engineering Manager for Collins Aerospace. He has spent 23+ years working on military navigation products as a design engineer. He is currently an engineering manager leading a team of 12 engineers that support GPS embedded products for Airborne and Weapons platforms. Mike graduated from South Dakota State University with a bachelor degree in Electrical Engineering and from the University of Iowa with a masters in business degree.  Mike has been a coach and mentor for FRC, FTC, FLL and Jr FLL teams for over 20 years.",
+    "tag": "BAE Systems",
+    "bio": "Mike is a Senior Engineering Manager for BAE Systems. He has spent 23+ years working on military navigation products as a design engineer. He is currently an engineering manager leading a team of 12 engineers that support GPS embedded products for Airborne and Weapons platforms. Mike graduated from South Dakota State University with a bachelor degree in Electrical Engineering and from the University of Iowa with a masters in business degree.  Mike has been a coach and mentor for FRC, FTC, FLL and Jr FLL teams for over 20 years.",
     "img": "pownell.mike.jpg"
   },
   {
@@ -24,6 +24,11 @@
     "img": "markovich.chris.jpg"
   },
   {
+    "name": "Madison Kriege",
+    "tag": "Pearson Education",
+    "bio": "Madison is a software developer at Pearson Education. She graduated from Iowa State University and has several years of experience with various FIRST programs."
+  },
+  {
     "name": "Jacob Schares",
     "tag":  "City High School",
     "bio": "Jacob is a math teacher at Iowa City High School. He has spent 7 years at City High and also spent time teaching at the Kirkwood Regional Center in Coralville. Jacob’s time as mentor and coach has been reduced so he can spend more time with family.",
@@ -31,8 +36,8 @@
   },
   {
     "name": "Jeremy Hartl",
-    "tag":  "Collins Aerospace",
-    "bio": "Jeremy is an electrical engineer at Collins Aerospace.",
+    "tag":  "BAE Systems",
+    "bio": "Jeremy is an electrical engineer at BAE Systems.",
     "img": "hartl.jeremy.png"
   }
 ]
