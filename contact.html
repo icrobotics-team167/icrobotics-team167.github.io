@@ -27,6 +27,7 @@
             let pageData = { name: 'Contact', nav: 'about.html' }
         </script>
         <script src="static/js/main.js" charset="utf-8"></script>
+        <script src="static/js/page/contact.js" charset="utf-8"></script>
         <main id="main">
             <div id="main-header" class="text-light">
                 <div id="heading-shade"></div>
@@ -38,6 +39,10 @@
                     and we will get in touch with you as soon as we can.
                 </p>
                 <form id="contact-form" action="https://formspree.io/mgenprby" method="POST">
+                    <p id="contact-thanks">
+                        The form was submitted successfully!
+                    </p>
+
                     <label for="contact-name">Name<span class="red"> *</span></label>
                     <input type="text" name="name" id="contact-name" placeholder="Jane Doe" required>
 
