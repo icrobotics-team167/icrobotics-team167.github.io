@@ -1,4 +1,38 @@
 {
+    "2021": {
+        "name": "Game Changers",
+        "banner": "banner.jpg",
+        "game": {
+            "desc": "In Game Changers, teams launch power cells into power port, spin and align a control panel, and climb a shield generator. Game Changers was an adaptation of the 2020 game, Infinite Recharge, suited for socially distanced competition.",
+            "media": "yt:I77Dz9pfds4"
+        },
+        "robot": {
+            "name": "Replay",
+            "media": "nu",
+            "goal": "Due to time constraints and COVID-19, we used our 2020 robot, Replay, with minor tweaks for INFINITE RECHARGE At Home. For the offseason competitions after that, we made significant improvements to each of Replay's subsystems.",
+            "features": [
+                "8 wheel drop-center tank drive",
+                "Human player station intake",
+                "Over-bumper ground intake",
+                "Circular ball indexing system",
+                "Limelight-enabled turret",
+                "Shooter under 28\"",
+                "Trench and rendezvous autonomous routines"
+            ]
+        },
+        "regionals": [
+            {
+                "name": "INFINITE RECHARGE At Home",
+                "media": "nu",
+                "placing": "10th place"
+            },
+            {
+                "name": "Rock River Robotics Offseason Competition",
+                "media": "nu",
+                "placing": "TBD"
+            }
+        ]
+    },
     "2020": {
         "name": "Infinite Recharge",
         "banner": "banner.jpg",
