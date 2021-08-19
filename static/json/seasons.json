@@ -8,7 +8,7 @@
         },
         "robot": {
             "name": "Replay",
-            "media": "nu",
+            "media": "li:robot.jpg",
             "goal": "Due to time constraints and COVID-19, we used our 2020 robot, Replay, with minor tweaks for INFINITE RECHARGE At Home. For the offseason competitions after that, we made significant improvements to each of Replay's subsystems.",
             "features": [
                 "8 wheel drop-center tank drive",
@@ -23,13 +23,31 @@
         "regionals": [
             {
                 "name": "INFINITE RECHARGE At Home",
-                "media": "nu",
+                "media": "li:infinite-recharge-at-home.jpg",
                 "placing": "10th place"
             },
             {
                 "name": "Rock River Robotics Offseason Competition",
-                "media": "nu",
-                "placing": "TBD"
+                "media": "li:r2oc-team-photo.jpg",
+                "placing": "7th seed; eliminated in semifinals"
+            }
+        ],
+        "gallery": [
+            {
+                "media": "li:r2oc-alliance.jpg",
+                "caption": "Beginning a match with our alliance."
+            },
+            {
+                "media": "li:r2oc-pit.jpg",
+                "caption": "Our team working on the robot at a competition."
+            },
+            {
+                "media": "li:childrens-museum.jpg",
+                "caption": "A team member teaching a young child about driving robots."
+            },
+            {
+                "media": "yt:jm4Mt61ne4M",
+                "caption": "A test of our new swerve drivetrain following a predetermined path autonomously."
             }
         ]
     },
