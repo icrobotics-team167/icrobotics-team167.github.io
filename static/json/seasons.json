@@ -1,4 +1,28 @@
 {
+    "2022": {
+        "name": "Rapid React",
+        "banner": "banner.jpg",
+        "game": {
+            "desc": "In Rapid React, teams launch or slide cargo into the hub and terminal before climbing the hangar. Rapid React, sponsored by Boeing, is part of an all-FIRST game series on sustainable transportation.",
+            "media": "yt:LgniEjI9cCM"
+        },
+        "robot": {
+            "name": "Robot",
+            "media": "logo.jpg",
+            "goal": "",
+            "features": [
+                
+            ]
+        },
+        "regionals": [
+            {
+                "name": "Iowa Regional"
+            },
+            {
+                "name": "Lake Superior Regional"
+            }
+        ]
+    },
     "2021": {
         "name": "Game Changers",
         "banner": "banner.jpg",
