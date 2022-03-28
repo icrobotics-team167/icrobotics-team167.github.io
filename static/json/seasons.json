@@ -8,7 +8,7 @@
         },
         "robot": {
             "name": "General Cornelius",
-            "media": "robot_2022.jpg",
+            "media": "li:robot_2022.jpg",
             "goal": "This year, our primary goals of the season were to reliably shoot balls into the high goal and climb to the traversal rung.  Additionally, we created a two ball autonomous program.",
             "features": [
                 "High goal shooter",
