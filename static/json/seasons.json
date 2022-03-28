@@ -7,19 +7,32 @@
             "media": "yt:LgniEjI9cCM"
         },
         "robot": {
-            "name": "Robot",
-            "media": "logo.jpg",
-            "goal": "",
+            "name": "General Cornelius",
+            "media": "robot_2022.jpg",
+            "goal": "This year, our primary goals of the season were to reliably shoot balls into the high goal and climb to the traversal rung.  Additionally, we created a two ball autonomous program.",
             "features": [
-                
+                "High goal shooter",
+                "2-3 ball autonomous",
+                "Traversal climber"
             ]
         },
         "regionals": [
             {
-                "name": "Iowa Regional"
+                "name": "Iowa Regional",
+                "media": "li:iowa_chairmans.jpg",
+                "placing": "11th seed; eliminated in quarterfinals",
+                "notes": "Also recieved the Jack Kamen Imagery Award."
             },
             {
-                "name": "Lake Superior Regional"
+                "name": "Lake Superior Regional",
+                "media": "li:duluth.jpg",
+                "placing": "4th seed; eliminated in semifinals"
+            }
+        ],
+        "gallery": [
+            {
+                "media": "li:state_fair.jpg",
+                "caption": "Pre-season outreach event at the Iowa State Fair."
             }
         ]
     },
