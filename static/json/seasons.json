@@ -1,4 +1,38 @@
 {
+    "2023": {
+        "name": "Charged Up",
+        "banner": "banner.jpg",
+        "game": {
+            "desc": "Check back in January for more info on this season's game!",
+            "media": "yt:m-qwsMmkFwg"
+        },
+        "robot": {
+            "name": "[Name]",
+            "media": "li:no-image.jpg",
+            "goal": "",
+            "features": [
+            ]
+        },
+        "regionals": [
+            {
+                "name": "Northern Lights Regional",
+                "media": "",
+                "placing": "",
+                "notes": ""
+            },
+            {
+                "name": "Iowa Regional",
+                "media": "",
+                "placing": ""
+            }
+        ],
+        "gallery": [
+            {
+                "media": "li:summer_camp.jpg",
+                "caption": "Summer camp students working on the LEGO Sumo challenge."
+            }
+        ]
+    },
     "2022": {
         "name": "Rapid React",
         "banner": "banner.jpg",
@@ -21,7 +55,7 @@
                 "name": "Iowa Regional",
                 "media": "li:iowa_chairmans.jpeg",
                 "placing": "11th seed; eliminated in quarterfinals",
-                "notes": "Also recieved the Jack Kamen Imagery Award."
+                "notes": "Also received the Jack Kamen Imagery Award."
             },
             {
                 "name": "Lake Superior Regional",
@@ -33,6 +67,14 @@
             {
                 "media": "li:state_fair.jpg",
                 "caption": "Pre-season outreach event at the Iowa State Fair."
+            },
+            {
+                "media": "li:meeting.jpg",
+                "caption": "Team working through problem with mentor Tom."
+            },
+            {
+                "media": "li:pins_in_crime.jpg",
+                "caption": "Members Ava and Anthony showing off their swag at the Iowa Regional."
             }
         ]
     },
