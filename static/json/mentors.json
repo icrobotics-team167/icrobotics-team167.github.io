@@ -18,6 +18,12 @@
     "bio":""
   },
   {
+    "name": "Paco Sanchez",
+    "tag":  "University of Iowa",
+    "img": "sanchez.paco.jpeg",
+    "bio":""
+  },
+  {
     "name": "Chris Markovich",
     "tag":  "Commscope",
     "img": "markovich.chris.jpg",
@@ -39,6 +45,18 @@
     "name": "Michael Livermore",
     "tag":  "Veenstra & Kimm",
     "img": "livermore.michael.jpg",
+    "bio":""
+  },
+  {
+    "name": "Joe Stramaglia",
+    "tag":  "Amana Clock Society",
+    "img": "stramaglia.joe.jpeg",
+    "bio":""
+  },
+  {
+    "name": "Sayre Satterwhite",
+    "tag":  "Siemens",
+    "img": "satterwhite.sayre.jpeg",
     "bio":""
   },
   {
