@@ -1,35 +1,46 @@
 {
     "2023": {
         "name": "Charged Up",
-        "banner": "banner.jpg",
+        "banner": "teamphoto.jpg",
         "game": {
-            "desc": "Check back in January for more info on this season's game!",
+            "desc": "In Charged Up, teams place cones and inflated cubes on a grid to make connected links before balancing the robot on their charging station. Charged Up, sponsored by Qualcomm, is part of an all-FIRST series about renewable energy.",
             "media": "yt:m-qwsMmkFwg"
         },
         "robot": {
-            "name": "[Name]",
-            "media": "li:no-image.jpg",
-            "goal": "",
+            "name": "Corn Wallace",
+            "media": "li:cornwallace.png",
+            "goal": "This year, our primary goals were to score both cubes and cones in the high grid space and have a self-balancing auto.",
             "features": [
+                "3 Stage telescoping arm",
+                "Self-balancing autonomous",
+                "6 wheel tank drive"
             ]
         },
         "regionals": [
             {
                 "name": "Northern Lights Regional",
-                "media": "",
-                "placing": "",
+                "media": "li:duluth.png",
+                "placing": "6th seed; eliminated in quarterfinals",
                 "notes": ""
             },
             {
                 "name": "Iowa Regional",
-                "media": "",
+                "media": "li:no-image.png",
                 "placing": ""
             }
         ],
         "gallery": [
             {
-                "media": "li:summer_camp.jpg",
-                "caption": "Summer camp students working on the LEGO Sumo challenge."
+                "media": "li:banner.png",
+                "caption": "How many children of the corn fit in an elevator?"
+            },
+            {
+                "media": "li:meeting.jpeg",
+                "caption": "Members working together to build the drivebase."
+            },
+            {
+                "media": "li:childrensmuseum.jpeg",
+                "caption": "Members Ava and Matthew teaching kids to drive the robot at the Iowa Children's Museum."
             }
         ]
     },
@@ -71,10 +82,6 @@
             {
                 "media": "li:meeting.jpg",
                 "caption": "Team working through problem with mentor Tom."
-            },
-            {
-                "media": "li:pins_in_crime.jpg",
-                "caption": "Members Ava and Anthony showing off their swag at the Iowa Regional."
             }
         ]
     },

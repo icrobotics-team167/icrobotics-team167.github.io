@@ -1,26 +1,8 @@
 [
   {
-    "name": "Mark Whiting",
-    "tag": "BAE Systems",
-    "img": "whiting.mark.jpg",
-    "bio":""
-  },
-  {
     "name": "Mike Pownell",
     "tag": "BAE Systems",
-    "img": "pownell.mike.jpg",
-    "bio":""
-  },
-  {
-    "name": "Tom Kalman",
-    "tag":  "EFI Global",
-    "img": "kalman.tom.jpg",
-    "bio":""
-  },
-  {
-    "name": "Paco Sanchez",
-    "tag":  "University of Iowa",
-    "img": "sanchez.paco.jpeg",
+    "img": "pownell.mike.png",
     "bio":""
   },
   {
