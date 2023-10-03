@@ -1,97 +1,134 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139208286-2"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-139208286-2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-            gtag('config', 'UA-139208286-2');
-        </script>
+      gtag("config", "UA-139208286-2");
+    </script>
 
-        <meta charset="utf-8">
-        <meta name="description" content="FIRST Robotics Competition team based out of Iowa City.">
-        <meta name="keywords" content="FRC, FIRST, Robotics, West High School, City High School, Iowa City">
-        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1">
-        <link rel="icon" href="static/img/logos/favicon.ico" type="image/x-icon">
-        <link rel="stylesheet" href="static/css/framework.css" media="screen">
-        <link rel="stylesheet" href="static/css/main.css" media="screen">
-        <link rel="stylesheet" href="static/css/page/about.css" media="screen">
-    </head>
-    <body>
-        <script src="static/js/jquery.min.js"></script>
-        <script src="static/js/framework.js" charset="utf-8"></script>
-        <script charset="utf-8">
-            let pageData = { name: 'About Us', nav: 'about.html' };
-        </script>
-        <script src="static/js/main.js" charset="utf-8"></script>
-        <main id="main">
-            <div id="main-header" class="text-light">
-                <div id="heading-shade"></div>
-                <h2 id="heading-title">About Us</h2>
-            </div>
-            <div id="main-content" class="mar-page">
-                <p>
-                    We are Iowa City Robotics — the oldest high school robotics team in the state of Iowa. 
-                    Made up of students from multiple nearby schools and mentors from the STEM industry, our team develops engineering,
-                    business, and teamwork skills by participating in the FIRST® Robotics Competition. In this competition,
-                    we design, build, and program a 125 pound robot in roughly six weeks to compete against other teams
-                    from all over the country.
-                </p>
-                <br>
-                <div class="about-img-group-2">
-                    <img src="static/img/about/work1.png">
-                    <img src="static/img/about/robot.jpg">
-                </div>
-                <br>
-                <p>
-                    As a 501(c)(3) nonprofit organization, our team works to encourage STEM careers for our members. In
-                    addition, we do outreach in the Iowa City community to foster STEM learning. This includes visiting
-                    elementary schools, running booths at community events, and holding summer camps for younger students.
-                </p>
-                <br>
-                <div class="about-img-group-2">
-                    <img src="static/img/about/outreach.png">
-                    <img src="static/img/about/camp.jpg">
-                </div>
-                <br>
-                <p>
-                    Without generous sponsorship from local businesses, our team could not survive. Kirkwood Community
-                    College provides workspace for us at the Kirkwood Regional Center in Coralville. In addition, several
-                    <a href="sponsors.html">local companies</a> support our team by donating money, time, or products.
-                </p>
-                <br>
-                <div class="about-img-group-2">
-                    <img src="static/img/about/krc.jpg">
-                    <img src="static/img/about/work2.jpg">
-                </div>
-                <br>
-            </div>
-            <div id="triple-circle" class="row d-mar-page">
-                <div class="circle-elem elem-4 text-center m-pad-vert">
-                    <a href="seasons.html">
-                        <img src="static/img/frontpage/teamhistory.jpg" alt="Our Team"/>
-                    </a>
-                    <h3>Past Seasons</h3>
-                    <a href="seasons.html"><p>Previous Seasons</p><i class="mdi mdi-arrow-right-bold-circle"></i></a>
-                </div>
-                <div class="circle-elem elem-4 text-center m-pad-vert">
-                    <a href="getinvolved.html">
-                        <img src="static/img/frontpage/aboutourteam.jpg" alt="Join Our Team"/>
-                    </a>
-                    <h3>Join Our Team</h3>
-                    <a href="getinvolved.html"><p>Learn How To Join</p><i class="mdi mdi-arrow-right-bold-circle"></i></a>
-                </div>
-                <div class="circle-elem elem-4 text-center m-pad-vert">
-                    <a href="contact.html">
-                        <img src="static/img/frontpage/getinvolved.jpg" alt="Get Involved"/>
-                    </a>
-                    <h3>Contact Us!</h3>
-                    <a href="contact.html"><p>Our Social Media</p><i class="mdi mdi-arrow-right-bold-circle"></i></a>
-                </div>
-            </div>
-        </main>
-    </body>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="FIRST Robotics Competition team based out of Iowa City."
+    />
+    <meta
+      name="keywords"
+      content="FRC, FIRST, Robotics, West High School, City High School, Iowa City"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1"
+    />
+    <link rel="icon" href="static/img/logos/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="static/css/framework.css" media="screen" />
+    <link rel="stylesheet" href="static/css/main.css" media="screen" />
+    <link rel="stylesheet" href="static/css/page/about.css" media="screen" />
+  </head>
+  <body>
+    <script src="static/js/jquery.min.js"></script>
+    <script src="static/js/framework.js" charset="utf-8"></script>
+    <script charset="utf-8">
+      let pageData = { name: "About Us", nav: "about.html" };
+    </script>
+    <script src="static/js/main.js" charset="utf-8"></script>
+    <main id="main">
+      <div id="main-header" class="text-light">
+        <div id="heading-shade"></div>
+        <h2 id="heading-title">About Us</h2>
+      </div>
+      <div id="main-content" class="mar-page">
+        <p>
+          We are Iowa City Robotics — formed to support the FRC team 167 and
+          other area teams not directly associated with a school. Team 167 is
+          the oldest high school robotics team in the state of Iowa. Made up of
+          students from multiple nearby schools and mentors from the STEM
+          industry, our team develops engineering, business, and teamwork skills
+          by participating in the FIRST® Robotics Competition. In this
+          competition, we design, build, and program a 125-pound robot in
+          roughly six weeks to compete against other teams from all over the
+          country.
+        </p>
+        <br />
+        <div class="about-img-group-2">
+          <img src="static/img/about/work1.png" />
+          <img src="static/img/about/robot.jpg" />
+        </div>
+        <br />
+        <p>
+          As a 501(c)(3) nonprofit organization, our team works to encourage
+          STEM careers for our members. In addition, we do outreach in the Iowa
+          City community to foster STEM learning. This includes visiting
+          elementary schools, running booths at community events, and holding
+          summer camps for younger students.
+        </p>
+        <br />
+        <div class="about-img-group-2">
+          <img src="static/img/about/outreach.png" />
+          <img src="static/img/about/camp.jpg" />
+        </div>
+        <br />
+        <p>
+          Without generous sponsorship from local businesses, our team could not
+          survive. Kirkwood Community College provides workspace for us at the
+          Kirkwood Regional Center in Coralville. In addition, several
+          <a href="sponsors.html">local companies</a> support our team by
+          donating money, time, or products.
+        </p>
+        <br />
+        <div class="about-img-group-2">
+          <img src="static/img/about/krc.jpg" />
+          <img src="static/img/about/work2.jpg" />
+        </div>
+        <br />
+      </div>
+      <div id="triple-circle" class="row d-mar-page">
+        <div class="circle-elem elem-4 text-center m-pad-vert">
+          <a href="seasons.html">
+            <img src="static/img/frontpage/teamhistory.jpg" alt="Our Team" />
+          </a>
+          <h3>Past Seasons</h3>
+          <a href="seasons.html"
+            ><p>Previous Seasons</p>
+            <i class="mdi mdi-arrow-right-bold-circle"></i
+          ></a>
+        </div>
+        <div class="circle-elem elem-4 text-center m-pad-vert">
+          <a href="getinvolved.html">
+            <img
+              src="static/img/frontpage/aboutourteam.jpg"
+              alt="Join Our Team"
+            />
+          </a>
+          <h3>Join Our Team</h3>
+          <a href="getinvolved.html"
+            ><p>Learn How To Join</p>
+            <i class="mdi mdi-arrow-right-bold-circle"></i
+          ></a>
+        </div>
+        <div class="circle-elem elem-4 text-center m-pad-vert">
+          <a href="contact.html">
+            <img
+              src="static/img/frontpage/getinvolved.jpg"
+              alt="Get Involved"
+            />
+          </a>
+          <h3>Contact Us!</h3>
+          <a href="contact.html"
+            ><p>Our Social Media</p>
+            <i class="mdi mdi-arrow-right-bold-circle"></i
+          ></a>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
