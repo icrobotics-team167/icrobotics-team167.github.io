@@ -1,18 +1,42 @@
 {
     "2024": {
         "name": "Crescendo",
-        "banner": "logo.png",
+        "banner": "team_photo.jpg",
         "game": {
             "desc": "In Crescendo, teams shoot circular notes into their speaker or amp before climbing onto the chain on the centerstage and put a note into the trap and allowing the human player to throw a ring onto a microphone on top of the stage. Crescendo, sponsored by Qualcomm, is part of an all-FIRST series about art ",
             "media": "yt:9keeDyFxzY4"
         },
         "robot": {
             "name": "Croppenheimer",
-            "media": "li:no-image.png",
+            "media": "Croppenheimer.jpg",
             "goal": "",
             "features": [
+                "Pivoting shooter mechanism",
+                "Omni-Directional Under the Bumper Intake System",
+                "4 Wheel Swerve Drive",
+                "Automatic targeting system"
             ]
-        }
+        },
+        "regionals": [
+            {
+                "name": "Central Missouri Regional",
+                "media": "Central_Missouri.jpg",
+                "placing": "Rank 24",
+                "notes": "Also recieved the Jack Kamen Imagery Award"
+            },
+            {
+                "name": "Iowa Regional",
+                "media": "no-image.png",
+                "placing": "",
+                "notes": ""
+            }
+        ],
+        "gallery": [
+            {
+                "media": "",
+                "caption": ""
+            }
+        ]
     },
     "2023": {
         "name": "Charged Up",
