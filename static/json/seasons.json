@@ -21,17 +21,21 @@
             {
                 "name": "Central Missouri Regional",
                 "media": "Central_Missouri.jpg",
-                "placing": "Rank 24",
+                "placing": "24th Seed",
                 "notes": "Also recieved the Jack Kamen Imagery Award"
             },
             {
                 "name": "Iowa Regional",
-                "media": "no-image.png",
-                "placing": "",
-                "notes": ""
+                "media": "Military_Corn.jpeg",
+                "placing": "22nd Seed; Eliminated in Quarterfinals",
+                "notes": "Also recieved the Creativity in Design Award"
             }
         ],
         "gallery": [
+            {
+                "media": "Michael_Stare.jpg",
+                "caption": "Michael watches a match while preparing to coach the drive team"
+            },
             {
                 "media": "",
                 "caption": ""
